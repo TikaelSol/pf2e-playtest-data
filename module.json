@@ -162,6 +162,15 @@
       "type": "Item",
       "private": false,
       "flags": {}
+    },
+    {
+      "label": "Thralls",
+      "name": "impossible-playtest-thralls",
+      "path": "packs/impossible-playtest-thralls",
+      "system": "pf2e",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
     }
   ],
   "esmodules": [
@@ -179,7 +188,8 @@
         "impossible-playtest-class-feats",
         "impossible-playtest-spells",
         "impossible-playtest-runes",
-        "impossible-playtest-journals"
+        "impossible-playtest-journals",
+        "impossible-playtest-thralls"
       ]
     },
     {

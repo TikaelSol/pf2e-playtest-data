@@ -20,22 +20,12 @@
           "runesmith": "Runesmith"
         },
         "featTraits": {
-          "banner": {
-            "label": "Banner",
-            "description": "The banner trait indicates an ability that involves you waving or otherwise actively displaying your banner. To use an ability that has the banner trait, you must be holding your banner in one hand or wielding a weapon it is attached to."
-          },
-          "commander": "Commander",
-          "guardian": "Guardian",
           "invocation": {
             "label": "Invocation",
             "description": "An invocation action allows a runesmith to surge power through a rune by uttering its true name. Invocation requires you to be able to speak clearly in a strong voice and requires that you be within 30 feet of the target rune or runes unless another ability changes this. The target rune then fades away immediately after the action resolves."
           },
           "necromancer": "Necromancer",
-          "runesmith": "Runesmith",
-          "tactic": {
-            "label": "Tactic",
-            "description": "Tactics are special abilities that involve you signaling your allies to perform predetermined maneuvers. To use a tactic ability, you must have one or more willing allies you have instructed beforehand during your daily preparations. Your squadmates must also be able to perceive your signal, either when you speak or shout it (in which case the tactic action gains the auditory trait), or by physically signaling them, typically by waving your banner (in which case it gains the visual trait). While you can use multiple tactic actions a round, a character cannot respond to more than one tactic per round, regardless of source."
-          }
+          "runesmith": "Runesmith"
         },
         "spellTraits": {
           "grave": "Grave",
@@ -49,60 +39,6 @@
     }
   },
   "packs": [
-    {
-      "label": "Classes",
-      "name": "battlecry-playtest-classes",
-      "path": "packs/battlecry-playtest-classes",
-      "system": "pf2e",
-      "type": "Item",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "label": "Feats",
-      "name": "battlecry-playtest-class-feats",
-      "path": "packs/battlecry-playtest-class-feats",
-      "system": "pf2e",
-      "type": "Item",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "label": "Class Features",
-      "name": "battlecry-playtest-class-features",
-      "path": "packs/battlecry-playtest-class-features",
-      "system": "pf2e",
-      "type": "Item",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "label": "Actions",
-      "name": "battlecry-playtest-actions",
-      "path": "packs/battlecry-playtest-actions",
-      "system": "pf2e",
-      "type": "Item",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "label": "Effects",
-      "name": "battlecry-playtest-effects",
-      "path": "packs/battlecry-playtest-effects",
-      "system": "pf2e",
-      "type": "Item",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "label": "Journals",
-      "name": "battlecry-playtest-journals",
-      "path": "packs/battlecry-playtest-journals",
-      "system": "pf2e",
-      "type": "JournalEntry",
-      "private": false,
-      "flags": {}
-    },
     {
       "label": "Actions",
       "name": "impossible-playtest-actions",
@@ -186,7 +122,6 @@
     }
   ],
   "esmodules": [
-    "scripts/popup.mjs"
   ],
   "packFolders": [
     {
@@ -203,21 +138,9 @@
         "impossible-playtest-journals",
         "impossible-playtest-thralls"
       ]
-    },
-    {
-      "name": "Battlecry Playtest",
-      "sorting": "m",
-      "packs": [
-        "battlecry-playtest-classes",
-        "battlecry-playtest-class-feats",
-        "battlecry-playtest-class-features",
-        "battlecry-playtest-actions",
-        "battlecry-playtest-effects",
-        "battlecry-playtest-journals"
-      ]
     }],
   "manifest": "https://github.com/TikaelSol/pf2e-playtest-data/releases/latest/download/module.json",
-  "download": "https://github.com/TikaelSol/pf2e-playtest-data/releases/download/v6.0/module.zip",
+  "download": "https://github.com/TikaelSol/pf2e-playtest-data/releases/latest/download/module.zip",
   "url": "https://github.com/TikaelSol/pf2e-playtest-data/",
   "authors": [{
     "name": "Tim Munsie [.TMun]",
@@ -230,13 +153,13 @@
       "id": "pf2e",
       "type": "system",
       "compatibility": {
-        "minimum": "6.7.2",
-        "verified": "6.7.2"
+        "minimum": "7.3",
+        "verified": "7.3"
       }
     }]
   },
   "compatibility": {
-    "minimum": "12.331",
-    "verified": "12.331"
+    "minimum": "13",
+    "verified": "13"
   }
 }

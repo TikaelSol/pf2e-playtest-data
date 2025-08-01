@@ -31,7 +31,7 @@ if (symlinkStats) {
             type: "confirm",
             name: "value",
             initial: false,
-            message: `A "pf2e-playtest-data" ${atPath} already exists in the "systems" subfolder. Replace with new symlink?`,
+            message: `A "pf2e-playtest-data" ${atPath} already exists in the "modules" subfolder. Replace with new symlink?`,
         })
     ).value;
     if (!proceed) {

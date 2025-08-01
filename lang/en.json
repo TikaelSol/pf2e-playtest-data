@@ -1,0 +1,19 @@
+{
+    "PFPT": {
+        "Trait": {
+            "Diacritic": "Diacritic",
+            "Invocation": "Invocation",
+            "Grave": "Grave",
+            "Necromancer": "Necromancer",
+            "Rune": "Rune",
+            "Runesmith": "Runesmith",
+            "Thrall": "Thrall"
+        },
+        "TraitDescription": {
+            "Diacritic": "A diacritic is a special type of rune that is not applied directly to a creature or object, but rather to another rune itself, modifying or empowering that base rune. A diacritic can never be applied by itself, and any effect that would remove or invoke the base rune always also removes or invokes the diacritic rune. A rune can have only one diacritic.",
+            "Invocation": "An invocation action allows a runesmith to surge power through a rune by uttering its true name. Invocation requires you to be able to speak clearly in a strong voice and requires that you be within 30 feet of the target rune or runes unless another ability changes this. The target rune then fades away immediately after the action resolves.",
+            "Rune": "A runesmith doesn't cast spells, but they can apply various magical effects through runes. Runes can be applied via <strong>etching</strong> or <strong>tracing</strong>. Etched runes are applied in exploration mode and last indefinitely, while traced runes last only until the end of your next turn. Their effects, however, are the same. Several abilities refer to creatures bearing one of your runes, known as rune-bearers—this is any creature who has one of your runes applied to its body or to any gear it is holding.",
+            "Thrall": "Thralls are undead creatures, but they are not minions with the summoned trait. They can't take actions, but they can be used for various abilities. Unless noted otherwise, a thrall is Small or Medium (chosen by you when you create it) and must be created in an unoccupied space. A thrall can contribute to flanking as though it were able to make melee unarmed Strikes. A thrall has 1 Hit Point, is automatically hit by attacks, and automatically fails all saving throws. A thrall is immune to bleed, death effects, disease, mental, and poison. A thrall is level −1 if an effect needs to refer to its level. Spells or abilities that create thralls have the thrall trait."
+        }
+    }
+}

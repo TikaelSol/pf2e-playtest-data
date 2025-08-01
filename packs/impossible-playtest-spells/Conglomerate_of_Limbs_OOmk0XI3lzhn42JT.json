@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You conjure forth a Huge thrall that has 40 Hit Points. Whenever an enemy begins its turn adjacent to this thrall, it must succeed at a Fortitude saving throw or become @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by the thrall for 1 round or until it Escapes. Once per round on subsequent turns, you can Sustain the spell to have the thrall Stride up to 15 feet, using its many limbs to drag itself across the ground.</p><hr /><p><strong>Heightened (+1)</strong> The thrall's Hit Points increase by 10.</p>"
+      "value": "<p>You conjure forth a Huge thrall that has 40 Hit Points. Whenever an enemy begins its turn adjacent to this thrall, it must succeed at a Fortitude saving throw or become @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by the thrall for 1 round or until it Escapes. Once per round on subsequent turns, you can Sustain the spell to have the thrall Stride up to 15 feet, using its many limbs to drag itself across the ground.</p><p>@UUID[Compendium.pf2e-playtest-data.impossible-playtest-thralls.Actor.Xuy2zf3qpsmm8wbb]{Conglomerate of Limbs}</p><hr /><p><strong>Heightened (+1)</strong> The thrall's Hit Points increase by 10.</p>"
     },
     "rules": [],
     "slug": null,

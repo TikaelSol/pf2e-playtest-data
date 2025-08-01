@@ -45,6 +45,9 @@
           {
             "or": [
               "item:slug:create-thrall",
+              "item:slug:create-thrall-bludgeoning",
+              "item:slug:create-thrall-slashing",
+              "item:slug:create-thrall-piercing",
               "item:slug:bone-spear",
               "item:slug:bony-barrage",
               "item:slug:perfected-thrall",

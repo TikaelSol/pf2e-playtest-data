@@ -5,29 +5,28 @@
     "flags": {
       "pf2e": {
         "linkToActorSize": true,
-        "autoscale": true
+        "autoscale": false
       }
     },
-    "height": 1,
-    "width": 1,
-    "name": "Living Graveyard",
+    "height": 3,
+    "width": 3,
+    "name": "Conglomerate of Limbs",
     "actorLink": false,
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "modules/pf2e-playtest-data/assets/actors/necromancer_thrall_07.webp",
+      "src": "modules/pf2e-playtest-data/assets/subjects/necromancer_thrall_06.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
       "offsetY": 0,
       "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 2,
+      "scaleY": 2,
       "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -86,25 +85,32 @@
       },
       "effects": 1,
       "subject": {
-        "scale": 1,
-        "texture": "modules/pf2e-playtest-data/assets/subjects/necromancer_thrall_07.webp"
+        "scale": 2,
+        "texture": "modules/pf2e-playtest-data/assets/subjects/necromancer_thrall_06.webp"
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
-  "name": "Living Graveyard",
+  "name": "Conglomerate of Limbs",
   "type": "npc",
   "effects": [],
   "system": {
     "attributes": {
       "hp": {
-        "value": 400,
+        "value": 40,
         "temp": 0,
-        "max": 400,
+        "max": 40,
         "details": ""
       },
       "speed": {
-        "value": 60,
+        "value": 15,
         "otherSpeeds": [],
         "details": ""
       },
@@ -161,8 +167,12 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.941,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.3.0"
+      }
     },
     "abilities": {
       "str": {
@@ -211,11 +221,11 @@
       ],
       "rarity": "common",
       "size": {
-        "value": "grg"
+        "value": "huge"
       }
     }
   },
-  "img": "modules/pf2e-playtest-data/assets/actors/necromancer_thrall_07.webp",
+  "img": "modules/pf2e-playtest-data/assets/actors/necromancer_thrall_06.webp",
   "items": [
     {
       "type": "action",
@@ -249,17 +259,17 @@
           "value": []
         },
         "_migration": {
-          "version": 0.935,
+          "version": 0.941,
           "previous": {
-            "schema": null,
-            "foundry": "12.331",
-            "system": "6.7.2"
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.3.0"
           }
         },
         "actions": {
           "value": null
         },
-        "category": null,
+        "category": "defensive",
         "deathNote": false
       },
       "effects": [],
@@ -267,19 +277,19 @@
       "img": "systems/pf2e/icons/default-icons/action.svg",
       "folder": null,
       "sort": 0,
-      "ownership": {
-        "default": 0,
-        "08H3OywEOnm7LqtN": 3
-      },
       "flags": {},
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "exportSource": null,
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.8.1"
+        "systemVersion": "7.3.0"
       },
-      "_key": "!actors.items!CN6TMEeEd0Wmvkct.YWrK36KFQZp3cKYU"
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Xuy2zf3qpsmm8wbb.YWrK36KFQZp3cKYU"
     },
     {
       "type": "action",
@@ -305,17 +315,17 @@
           "value": []
         },
         "_migration": {
-          "version": 0.935,
+          "version": 0.941,
           "previous": {
-            "schema": null,
-            "foundry": "12.331",
-            "system": "6.7.2"
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.3.0"
           }
         },
         "actions": {
           "value": null
         },
-        "category": null,
+        "category": "defensive",
         "deathNote": false
       },
       "effects": [],
@@ -323,29 +333,29 @@
       "img": "systems/pf2e/icons/default-icons/action.svg",
       "folder": null,
       "sort": -100000,
-      "ownership": {
-        "default": 0,
-        "08H3OywEOnm7LqtN": 3
-      },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Actor.v8TB6wZAXx90fHu7.Item.JbFXW4ACd8AyV07N",
-        "duplicateSource": "Actor.v8TB6wZAXx90fHu7.Item.JbFXW4ACd8AyV07N",
-        "coreVersion": "12.331",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.7.2"
+        "systemVersion": "7.3.0"
       },
-      "_key": "!actors.items!CN6TMEeEd0Wmvkct.JbFXW4ACd8AyV07N"
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Xuy2zf3qpsmm8wbb.JbFXW4ACd8AyV07N"
     },
     {
       "type": "action",
-      "name": "Living Graveyard",
+      "name": "Conglomerate of Limbs",
       "system": {
         "actionType": {
           "value": "passive"
         },
         "description": {
-          "value": "<p>You conjure forth a Gargantuan thrall that has 400 Hit Points. This thrall is a walking bulk of graves and tombstones held together by the buried dead. The living graveyard violently shakes. All creatures in a @Template[type:emanation|distance:10] must succeed a Fortitude saving throw or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. Additionally, five @UUID[Compendium.pf2e-playtest-data.impossible-playtest-thralls.Actor.ISmLeI8zNc6YWysQ]{thralls} (using the base thrall statistics) fall from their graves into empty spaces adjacent to the living graveyard. These additional thralls last until the spell ends.</p><p>Once per round on subsequent turns, you can Sustain the spell to have the living graveyard Stride up to 60 feet and cause three additional thralls to fall from their graves into empty spaces along its path.</p>",
+          "value": "<p>Conjured by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-spells.Item.OOmk0XI3lzhn42JT]{Conglomerate of Limbs}</p><p>Whenever an enemy begins its turn adjacent to this thrall, it must succeed at a Fortitude saving throw or become @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by the thrall for 1 round or until it Escapes. Once per round on subsequent turns, you can Sustain the spell to have the thrall Stride up to 15 feet, using its many limbs to drag itself across the ground.</p><hr /><p><strong>Heightened (+1)</strong> The thrall's Hit Points increase by 10.</p>",
           "gm": ""
         },
         "publication": {
@@ -361,11 +371,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.935,
+          "version": 0.941,
           "previous": {
             "schema": null,
-            "foundry": "12.331",
-            "system": "6.7.2"
+            "foundry": "13.346",
+            "system": "7.3.0"
           }
         },
         "actions": {
@@ -375,7 +385,7 @@
         "deathNote": false
       },
       "effects": [],
-      "_id": "7HwQ9fClhAteXl5f",
+      "_id": "C4KKHLfdhCJTwE4d",
       "img": "systems/pf2e/icons/default-icons/action.svg",
       "folder": null,
       "sort": 0,
@@ -387,11 +397,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "exportSource": null,
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.7.2"
+        "systemVersion": "7.3.0"
       },
-      "_key": "!actors.items!CN6TMEeEd0Wmvkct.7HwQ9fClhAteXl5f"
+      "_key": "!actors.items!Xuy2zf3qpsmm8wbb.C4KKHLfdhCJTwE4d"
     }
   ],
   "folder": null,
@@ -399,15 +410,16 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "exportSource": null,
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.7.2"
+    "systemVersion": "7.3.0"
   },
   "ownership": {
     "default": 0,
-    "08H3OywEOnm7LqtN": 3
+    "qA45GVv5hySaf9b5": 3
   },
-  "_id": "CN6TMEeEd0Wmvkct",
-  "sort": 100000,
-  "_key": "!actors!CN6TMEeEd0Wmvkct"
+  "_id": "Xuy2zf3qpsmm8wbb",
+  "sort": 200000,
+  "_key": "!actors!Xuy2zf3qpsmm8wbb"
 }

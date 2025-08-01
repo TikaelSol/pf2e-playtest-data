@@ -138,11 +138,11 @@
           "exceptions": []
         },
         {
-          "type": "metal",
+          "type": "poison",
           "exceptions": []
         },
         {
-          "type": "poison",
+          "type": "mental",
           "exceptions": []
         }
       ]

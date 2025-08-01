@@ -1,3 +1,5 @@
+Version 6.1 - Remove Battlecry! playtest materials.
+
 Version 6.0.0 - Add the Necromancer and Runesmith classes from the Impossible class playtest. Remove War of Immortals playtest classes.
 
 Version 5.1.0 - Update to V12

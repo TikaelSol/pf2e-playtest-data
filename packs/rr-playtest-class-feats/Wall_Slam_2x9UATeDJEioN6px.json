@@ -24,7 +24,7 @@
       "authors": ""
     },
     "description": {
-      "value": "<p>You scramble up between two props to gain a height advantage on an enemy. [[/act leap]] vertically; you may end your Leap in an unoccupied space that is no more than 10 feet from your original position. If you end your movement within melee reach of at least one enemy, you can attempt an Athletics check to [[/act trip options=wall-slam]] that enemy with a +2 circumstance bonus to the check.</p>",
+      "value": "<p>You scramble up between two props to gain a height advantage on an enemy. @UUID[Compendium.pf2e.actionspf2e.Item.Leap] vertically; you may end your Leap in an unoccupied space that is no more than 10 feet from your original position. If you end your movement within melee reach of at least one enemy, you can attempt an Athletics check to [[/act trip options=wall-slam]] that enemy with a +2 circumstance bonus to the check.</p>",
       "gm": ""
     },
     "rules": [

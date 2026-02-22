@@ -22,7 +22,7 @@
       "authors": ""
     },
     "description": {
-      "value": "<p>Your senses tingle with the excitement of combat. When you have adrenaline and you attempt a flat check to target @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} and @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} creatures, you roll twice and take the higher result; this is a fortune effect. In addition, when you are within 10 feet of an undetected creature of your level or lower and have adrenaline, that creature is instead only hidden from you.</p>",
+      "value": "<p>Your senses tingle with the excitement of combat. When you have adrenaline and you attempt a flat check to target @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} and @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} creatures, you roll twice and take the higher result; this is a fortune effect. In addition, when you are within 10 feet of an @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} creature of your level or lower and have adrenaline, that creature is instead only hidden from you.</p>",
       "gm": ""
     },
     "rules": [],
@@ -67,7 +67,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_key": "!items!uCGk3B7Zd74QKPy0"
 }

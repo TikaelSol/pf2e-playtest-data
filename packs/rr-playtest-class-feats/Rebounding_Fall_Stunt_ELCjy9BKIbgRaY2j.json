@@ -25,7 +25,7 @@
       "authors": ""
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> The target can't be more than one size larger than you.</p><hr /><p>You entangle a foe's lower limbs as you attempt to bring them down with you. You fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and attempt an @Check[acrobatics|against:fortitude] check against the Fortitude DC of a creature within your reach.</p><hr /><p><strong>Critical Success</strong> The target falls prone and you deal stunt damage to them (@Damage[(ceil(@actor.level/4)d6+@actor.system.abilities.str.mod)[bludgeoning]]). You immediately Stand, which doesn't trigger reactions.</p><p><strong>Success</strong> As critical success, but the target takes no damage.</p><p><strong>Failure</strong> Though you don't bring your target down with you, you can immediately crawl away from them.</p><p><strong>Critical Failure</strong> Your stunt backfires and you take @Damage[1d6[bludgeoning]] damage from the fall. You can't Stand until your next turn.</p>",
+      "value": "<p><strong>Requirements</strong> The target can't be more than one size larger than you.</p><hr /><p>You entangle a foe's lower limbs as you attempt to bring them down with you. You fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and attempt an @Check[acrobatics|against:fortitude] check against the Fortitude DC of a creature within your reach.</p><hr /><p><strong>Critical Success</strong> The target falls prone and you deal stunt damage to them (@Damage[(ceil(@actor.level/4)d6+@actor.system.abilities.str.mod)[bludgeoning]]). You immediately @UUID[Compendium.pf2e.actionspf2e.Item.OdIUybJ3ddfL7wzj]{Stand}, which doesn't trigger reactions.</p><p><strong>Success</strong> As critical success, but the target takes no damage.</p><p><strong>Failure</strong> Though you don't bring your target down with you, you can immediately @UUID[Compendium.pf2e.actionspf2e.Item.Tj055UcNm6UEgtCg]{Crawl} away from them.</p><p><strong>Critical Failure</strong> Your stunt backfires and you take @Damage[1d6[bludgeoning]] damage from the fall. You can't Stand until your next turn.</p>",
       "gm": ""
     },
     "rules": [],
@@ -70,7 +70,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_key": "!items!ELCjy9BKIbgRaY2j"
 }

@@ -22,7 +22,7 @@
       "authors": ""
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> You have adrenaline.</p><hr /><p>You pause to take a breath to fortify yourself. You gain temporary Hit Points equal to your level plus your Constitution modifier that last until the start of your next turn. Additionally, you reduce the value by 1 of one of the following conditions you have @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, or sickened@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened}. You then lose adrenaline.</p>",
+      "value": "<p><strong>Requirements</strong> You have adrenaline.</p><hr /><p>You pause to take a breath to fortify yourself. You gain temporary Hit Points equal to your level plus your Constitution modifier that last until the start of your next turn. Additionally, you reduce the value by 1 of one of the following conditions you have @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, or @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened}. You then lose adrenaline.</p>",
       "gm": ""
     },
     "rules": [],

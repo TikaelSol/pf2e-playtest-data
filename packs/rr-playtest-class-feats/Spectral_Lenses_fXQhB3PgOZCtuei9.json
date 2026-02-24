@@ -22,7 +22,7 @@
       "authors": ""
     },
     "description": {
-      "value": "<p>You gain spectral lenses as a secondary tool, which take the form of either specially treated glasses or a noxious ointment you apply to your eyes. You can apply or remove your spectral lenses as a single Interact action. While applied, you gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9].</p><p><strong>Reinforced</strong> While applied, you also gain a +1 status bonus to Perception checks to [[/act seek options=spectral-lenses-seek]] or @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU] for creatures with any of the trophy's traits, and you reduce the DC for the flat check to target @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or hidden creatures with any of the trophy's traits by 2 (typically to 3 and 9, respectively).</p>",
+      "value": "<p>You gain spectral lenses as a secondary tool, which take the form of either specially treated glasses or a noxious ointment you apply to your eyes. You can apply or remove your spectral lenses as a single Interact action. While applied, you gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9].</p><p><strong>Reinforced</strong> While applied, you also gain a +1 status bonus to Perception checks to [[/act seek options=spectral-lenses-seek]] or @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU] for creatures with any of the trophy's traits, and you reduce the DC for the flat check to target @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} creatures with any of the trophy's traits by 2 (typically to 3 and 9, respectively).</p>",
       "gm": ""
     },
     "rules": [
@@ -92,7 +92,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_key": "!items!fXQhB3PgOZCtuei9"
 }

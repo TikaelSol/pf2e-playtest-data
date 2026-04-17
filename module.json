@@ -255,7 +255,7 @@
                 "type": "system",
                 "compatibility": {
                     "minimum": "7.9",
-                    "verified": "7.9"
+                    "verified": "8.0"
                 }
             }
         ]
@@ -269,6 +269,6 @@
     ],
     "compatibility": {
         "minimum": "13",
-        "verified": "13.351"
+        "verified": "14"
     }
 }

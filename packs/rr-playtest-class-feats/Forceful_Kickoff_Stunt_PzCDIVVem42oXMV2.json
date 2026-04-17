@@ -25,7 +25,7 @@
       "authors": ""
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> The target can't be more than one size larger than you.</p><hr /><p>You plant a foot in an enemy's chest, pushing them away as your leap backward. Attempt an @Check[acrobatics|against:fortitude] check against the Fortitude DC of a creature within your reach.</p><hr /><p><strong>Critical Success</strong> The target is pushed 15 feet away from you. You [[/act leap]] away from the target, and this movement doesn't trigger reactions.</p><p><strong>Success</strong> As critical success, but the target is pushed only 5 feet.</p><p><strong>Failure</strong> You Leap away from the target.</p><p><strong>Critical Failure</strong> Your stunt backfires. You are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the beginning of your next turn.</p>",
+      "value": "<p><strong>Requirements</strong> The target can't be more than one size larger than you.</p><hr /><p>You plant a foot in an enemy's chest, pushing them away as your leap backward. Attempt an @Check[acrobatics|against:fortitude] check against the Fortitude DC of a creature within your reach.</p><hr /><p><strong>Critical Success</strong> The target is pushed 15 feet away from you. You @UUID[Compendium.pf2e.actionspf2e.Item.Leap] away from the target, and this movement doesn't trigger reactions.</p><p><strong>Success</strong> As critical success, but the target is pushed only 5 feet.</p><p><strong>Failure</strong> You Leap away from the target.</p><p><strong>Critical Failure</strong> Your stunt backfires. You are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the beginning of your next turn.</p>",
       "gm": ""
     },
     "rules": [],

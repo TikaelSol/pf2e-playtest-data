@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>Your adrenaline fuels you to attack again and again. Whenever you have adrenaline and make an attack as part of an action with the press trait, your multiple attack penalty is –4 (–3 with an agile attack) on your second attack of the turn instead of –5, and –8 (–6 with an agile attack) on your third or subsequent attack of the turn instead of –10. Other daredevil actions, such as certain class feats, require you to have adrenaline.</p>",
+      "value": "<p>Your adrenaline fuels you to attack again and again. Whenever you have adrenaline and make an attack as part of an action with the press trait, your multiple attack penalty is –4 (–3 with an agile attack) on your second attack of the turn instead of –5, and –8 (–6 with an agile attack) on your third or subsequent attack of the turn instead of –10.</p>",
       "gm": ""
     },
     "publication": {

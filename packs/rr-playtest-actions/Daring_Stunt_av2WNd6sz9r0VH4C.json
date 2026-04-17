@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>You hurl yourself into the fray and try to maneuver a foe. You Stride or [[/act leap]]. You can use Daring Stunt while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type. You must move at least 10 feet and end your movement adjacent to at least one enemy. At the end of your movement, you can attempt to [[/act grapple]], [[/act reposition]], [[/act shove]], or [[/act trip]] one enemy within your reach. You must meet all the requirements of that action.</p>",
+      "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>You hurl yourself into the fray and try to maneuver a foe. You Stride or @UUID[Compendium.pf2e.actionspf2e.Item.Leap]. You can use Daring Stunt while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type. You must move at least 10 feet and end your movement adjacent to at least one enemy. At the end of your movement, you can attempt to [[/act grapple]], [[/act reposition]], [[/act shove]], or [[/act trip]] one enemy within your reach. You must meet all the requirements of that action.</p>",
       "gm": ""
     },
     "publication": {

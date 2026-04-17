@@ -23,7 +23,7 @@
       "authors": ""
     },
     "description": {
-      "value": "<p>Though your first attack missed, you bring your weapon around for another blow. Make a Strike with the same weapon, adding the backswing trait and increasing the size of the damage die by one step.</p>",
+      "value": "<p><strong>Requirements</strong> You used your previous action to make a melee Strike with a one-handed weapon that missed.</p><hr /><p>Though your first attack missed, you bring your weapon around for another blow. Make a Strike with the same weapon, adding the backswing trait and increasing the size of the damage die by one step.</p>",
       "gm": ""
     },
     "rules": [
@@ -70,11 +70,7 @@
       "value": 1
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "You used your previous action to make a melee Strike with a one-handed weapon that missed."
-        }
-      ]
+      "value": []
     },
     "subfeatures": {
       "proficiencies": {},
@@ -97,7 +93,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_key": "!items!syXTx7XKZE2yw4By"
 }

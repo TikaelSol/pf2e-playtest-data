@@ -23,7 +23,7 @@
       "authors": ""
     },
     "description": {
-      "value": "<p>Even if they think they've got you right where they want you, you squirm from their grasp in a way that forces them to move. You attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} from being @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by a creature. If you succeed, you can also attempt to [[/act reposition]] that creature. Don't increase your multiple attack penalty until after you attempted both checks. Regardless of whether you succeed at Repositioning your target, you can Step.</p>",
+      "value": "<p><strong>Requirements</strong> You’re grabbed or restrained by a creature.</p><hr /><p>Even if they think they've got you right where they want you, you squirm from their grasp in a way that forces them to move. You attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} from being @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by a creature. If you succeed, you can also attempt to [[/act reposition]] that creature. Don't increase your multiple attack penalty until after you attempted both checks. Regardless of whether you succeed at Repositioning your target, you can Step.</p>",
       "gm": ""
     },
     "rules": [],
@@ -45,11 +45,7 @@
       "value": 2
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "You’re grabbed or restrained by a creature."
-        }
-      ]
+      "value": []
     },
     "subfeatures": {
       "proficiencies": {},
@@ -72,7 +68,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_key": "!items!o374qoJibnCr4g01"
 }

@@ -22,7 +22,7 @@
       "authors": ""
     },
     "description": {
-      "value": "<p>You move between your foes and batter them as you pass by. You Stride twice. You can move through enemies as part of this movement. As normal, this movement can trigger reactions, and you can't end your movement in an enemy's space. You deal @Damage[(ceil(@actor.level/4)d6+@actor.system.abilities.str.mod)[bludgeoning]]{stunt damage} to each enemy you move through.</p>",
+      "value": "<p><strong>Requirements</strong> You have adrenaline.</p><hr /><p>You move between your foes and batter them as you pass by. You Stride twice. You can move through enemies as part of this movement. As normal, this movement can trigger reactions, and you can't end your movement in an enemy's space. You deal @Damage[(ceil(@actor.level/4)d6+@actor.system.abilities.str.mod)[bludgeoning]]{stunt damage} to each enemy you move through.</p>",
       "gm": ""
     },
     "rules": [],
@@ -44,11 +44,7 @@
       "value": 2
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "You have adrenaline"
-        }
-      ]
+      "value": []
     },
     "subfeatures": {
       "proficiencies": {},
@@ -71,7 +67,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_key": "!items!bAD5FJAQRBMVRNqh"
 }

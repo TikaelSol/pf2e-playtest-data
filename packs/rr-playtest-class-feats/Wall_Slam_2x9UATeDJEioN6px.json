@@ -24,7 +24,7 @@
       "authors": ""
     },
     "description": {
-      "value": "<p>You scramble up between two props to gain a height advantage on an enemy. @UUID[Compendium.pf2e.actionspf2e.Item.Leap] vertically; you may end your Leap in an unoccupied space that is no more than 10 feet from your original position. If you end your movement within melee reach of at least one enemy, you can attempt an Athletics check to [[/act trip options=wall-slam]] that enemy with a +2 circumstance bonus to the check.</p>",
+      "value": "<p><strong>Requirements</strong> There are at least two props on opposite sides of you.</p><hr /><p>You scramble up between two props to gain a height advantage on an enemy. [[/act leap]] vertically; you may end your Leap in an unoccupied space that is no more than 10 feet from your original position. If you end your movement within melee reach of at least one enemy, you can attempt an Athletics check to [[/act trip options=wall-slam]] that enemy with a +2 circumstance bonus to the check.</p>",
       "gm": ""
     },
     "rules": [
@@ -59,11 +59,7 @@
       "value": 2
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "There are at least two props on opposite sides of you."
-        }
-      ]
+      "value": []
     },
     "subfeatures": {
       "proficiencies": {},
@@ -86,7 +82,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_key": "!items!2x9UATeDJEioN6px"
 }

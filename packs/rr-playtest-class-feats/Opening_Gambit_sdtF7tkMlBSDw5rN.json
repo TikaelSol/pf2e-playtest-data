@@ -24,7 +24,7 @@
       "authors": ""
     },
     "description": {
-      "value": "<p>As combat begins, you perform a minor stunt that might allow you to make the first move. Attempt an @Check[acrobatics] or @Check[athletics] check against a standard DC for the highest-level creature in the encounter, though the GM can assign a different DC based on the circumstances. Regardless of the result, you gain @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.HAjDJbdawcI5TjTG]{Adrenaline} during your first round of the encounter.</p><hr /><p><strong>Success</strong> Your initiative is equal to 19 + your initiative modifier.</p><p><strong>Failure</strong> Your initiative is equal to 1 + your initiative modifier.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.ntVmBcm7n9SsBPXh]{Effect: Opening Gambit}</p>",
+      "value": "<p><strong>Requirements</strong> You are about to roll initiative.</p><hr /><p>As combat begins, you perform a minor stunt that might allow you to make the first move. Attempt an @Check[acrobatics] or @Check[athletics] check against a standard DC for the highest-level creature in the encounter, though the GM can assign a different DC based on the circumstances. Regardless of the result, you gain @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.HAjDJbdawcI5TjTG]{Adrenaline} during your first round of the encounter.</p><hr /><p><strong>Success</strong> Your initiative is equal to 19 + your initiative modifier.</p><p><strong>Failure</strong> Your initiative is equal to 1 + your initiative modifier.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.ntVmBcm7n9SsBPXh]{Effect: Opening Gambit}</p>",
       "gm": ""
     },
     "rules": [],
@@ -46,11 +46,7 @@
       "value": null
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "You are about to roll initiative."
-        }
-      ]
+      "value": []
     },
     "subfeatures": {
       "proficiencies": {},
@@ -73,7 +69,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_key": "!items!sdtF7tkMlBSDw5rN"
 }

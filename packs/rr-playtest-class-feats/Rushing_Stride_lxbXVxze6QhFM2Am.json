@@ -24,7 +24,7 @@
       "authors": ""
     },
     "description": {
-      "value": "<p>You run headlong into danger to stoke the fire of your adrenaline. You Stride. At the end of this movement, if you are within melee reach of an enemy, you can make a melee Strike against that enemy. If you do, you are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against all other enemies except the one you attacked until the beginning of your next turn.</p>",
+      "value": "<p><strong>Requirements</strong> You don’t have adrenaline.</p><hr /><p>You run headlong into danger to stoke the fire of your adrenaline. You Stride. At the end of this movement, if you are within melee reach of an enemy, you can make a melee Strike against that enemy. If you do, you are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against all other enemies except the one you attacked until the beginning of your next turn.</p>",
       "gm": ""
     },
     "rules": [
@@ -55,11 +55,7 @@
       "value": 1
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "You don’t have adrenaline."
-        }
-      ]
+      "value": []
     },
     "subfeatures": {
       "proficiencies": {},
@@ -82,7 +78,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_key": "!items!lxbXVxze6QhFM2Am"
 }

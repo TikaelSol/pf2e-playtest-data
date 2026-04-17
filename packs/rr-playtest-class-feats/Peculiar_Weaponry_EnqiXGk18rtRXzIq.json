@@ -32,7 +32,8 @@
         "property": "damage-dice-faces",
         "itemType": "weapon",
         "predicate": [
-          "item:tag:bloodseeking-blade"
+          "item:tag:bloodseeking-blade",
+          "item:category:simple"
         ]
       },
       {

@@ -24,7 +24,7 @@
       "authors": ""
     },
     "description": {
-      "value": "<p>Fueled by adrenaline, you drive an enemy's head into a sturdy object. Attempt an @Check[athletics|against:fortitude] check against the Fortitude DC of the @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} creature.</p><hr /><p><strong>Critical Success</strong> Your deal @Damage[(ceil(@actor.level/4)d6+@actor.system.abilities.str.mod)[bludgeoning]]{stunt damage} to your target, who must attempt a @Check[fortitude|against:daredevil|options:inflicts:stunned|traits:incapacitation] save against your class DC or become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}; this is an incapacitation effect. Your target remains grabbed or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by you until the end of your next turn or they Escape.</p><p><strong>Success</strong> As critical success, but the target is only @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}. Your target remains grabbed or restrained by you until the end of your next turn or they Escape.</p><p><strong>Failure</strong> You deal half your stunt damage to the target. Your target is then no longer grabbed or restrained by you.</p><p><strong>Critical Failure</strong> Your target is no longer grabbed or restrained by you. Your target can either grab you, as if it succeeded at using the @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} action against you, or force you to fall and land @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>",
+      "value": "<p><strong>Requirements</strong> You have adrenaline, you have a creature grabbed or restrained, and you and the required creature are both adjacent to the same prop</p><hr /><p>Fueled by adrenaline, you drive an enemy's head into a sturdy object. Attempt an @Check[athletics|against:fortitude] check against the Fortitude DC of the @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} creature.</p><hr /><p><strong>Critical Success</strong> Your deal @Damage[(ceil(@actor.level/4)d6+@actor.system.abilities.str.mod)[bludgeoning]]{stunt damage} to your target, who must attempt a @Check[fortitude|against:daredevil|options:inflicts:stunned|traits:incapacitation] save against your class DC or become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}; this is an incapacitation effect. Your target remains grabbed or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by you until the end of your next turn or they Escape.</p><p><strong>Success</strong> As critical success, but the target is only @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}. Your target remains grabbed or restrained by you until the end of your next turn or they Escape.</p><p><strong>Failure</strong> You deal half your stunt damage to the target. Your target is then no longer grabbed or restrained by you.</p><p><strong>Critical Failure</strong> Your target is no longer grabbed or restrained by you. Your target can either grab you, as if it succeeded at using the @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} action against you, or force you to fall and land @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>",
       "gm": ""
     },
     "rules": [],
@@ -46,11 +46,7 @@
       "value": 1
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "You have adrenaline, you have a creature grabbed or restrained, and you and the grabbed creature are both adjacent to the same prop."
-        }
-      ]
+      "value": []
     },
     "subfeatures": {
       "proficiencies": {},
@@ -73,7 +69,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_key": "!items!VO8O0CqYneFmlBtH"
 }

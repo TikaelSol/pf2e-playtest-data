@@ -1,0 +1,70 @@
+{
+  "name": "Effect: Blood for Blood (Half Level)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.A3F3XKjkZVrwefU1]{Blood for Blood}</p><p>You gain temporary Hit Points equal to half your level.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "floor(@actor.level / 2)"
+      }
+    ],
+    "slug": "effect-blood-for-blood-half-level",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 4
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "unA01lIdrj424i0Y",
+  "img": "icons/skills/wounds/injury-eyes-blood-red-pink.webp",
+  "folder": null,
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!unA01lIdrj424i0Y"
+}

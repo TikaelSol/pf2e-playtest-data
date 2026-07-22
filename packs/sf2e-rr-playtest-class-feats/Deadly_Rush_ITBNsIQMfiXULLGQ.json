@@ -1,0 +1,134 @@
+{
+  "type": "feat",
+  "name": "Deadly Rush",
+  "folder": "0xhuX82KMTUKORGd",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "daredevil"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p>When you dash forward to make a swift attack, your weapon becomes a deadly instrument. When you score a critical hit during the Strike you make with @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.lxbXVxze6QhFM2Am]{Rushing Stride} with a weapon that has the deadly trait, you double the number of dice from that trait. When you Strike during Rushing Stride with a weapon doesn't have the deadly trait, it gains the deadly d8 trait for that attack instead.</p>",
+      "gm": ""
+    },
+    "rules": [
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:equipped",
+          "rushing-stride",
+          {
+            "nor": [
+              "item:trait:deadly-d4",
+              "item:trait:deadly-d6",
+              "item:trait:deadly-d8",
+              "item:trait:deadly-d10",
+              "item:trait:deadly-d12"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "deadly-from-deadly-rush"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "rushing-stride",
+          "item:tag:deadly-from-deadly-rush"
+        ],
+        "priority": 121,
+        "property": "traits",
+        "value": "deadly-d8"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "multiply",
+        "predicate": [
+          "rushing-stride",
+          {
+            "not": "item:tag:deadly-from-deadly-rush"
+          },
+          {
+            "or": [
+              "dice:slug:deadly-d4",
+              "dice:slug:deadly-d6",
+              "dice:slug:deadly-d8",
+              "dice:slug:deadly-d10",
+              "dice:slug:deadly-d12"
+            ]
+          }
+        ],
+        "property": "dice-number",
+        "selectors": [
+          "strike-damage"
+        ],
+        "value": 2
+      }
+    ],
+    "slug": "deadly-rush",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Rushing Stride"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "ITBNsIQMfiXULLGQ",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!ITBNsIQMfiXULLGQ"
+}

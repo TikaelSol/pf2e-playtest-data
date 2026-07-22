@@ -1,0 +1,20 @@
+{
+  "name": "Level 14",
+  "folder": "rllEuXzlqzSrTtpS",
+  "type": "Item",
+  "_id": "TFX9KA8V8OMcmcmg",
+  "description": "",
+  "sorting": "a",
+  "sort": 500000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!TFX9KA8V8OMcmcmg"
+}

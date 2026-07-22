@@ -1,0 +1,92 @@
+{
+  "type": "feat",
+  "name": "Storm of Debris",
+  "folder": "0xhuX82KMTUKORGd",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "daredevil"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p>You quickly hurl a myriad of different objects at a group of enemies in close proximity to each other. You can use @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.MW9pnWb4SPbdJIt0]{Breakaway Attack} as a three-action activity to make a ranged Strike against each enemy in a @Template[type:burst|distance:15] within 20 feet, Interacting to pick up a new item before you make each attack. This counts as three attacks for your multiple attack penalty, but your multiple attack penalty doesn't increase until after you've made all the attacks.</p>",
+      "gm": ""
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "description",
+        "mode": "add",
+        "value": [
+          {
+            "text": "{item|description}"
+          }
+        ],
+        "predicate": [
+          "item:slug:breakaway-attack"
+        ]
+      }
+    ],
+    "slug": "storm-of-debris",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Breakaway Attack"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "pOWCgw2bCFKpRptk",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!pOWCgw2bCFKpRptk"
+}

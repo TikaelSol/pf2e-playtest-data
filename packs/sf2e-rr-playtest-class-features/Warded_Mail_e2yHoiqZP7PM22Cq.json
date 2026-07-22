@@ -1,0 +1,285 @@
+{
+  "folder": "nl4dm7lchViZJXBa",
+  "name": "Warded Mail",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your armor is more than simple protection—it fits you perfectly, matching your movements and warding off your quarry. Your signature tool is a set of level 0 common armor of your choice. You can designate a different set of armor as your signature tool when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}, transferring your special adjustments to it. In addition, you become trained in heavy armor, and whenever you gain a class feature that grants you expert or greater proficiency in medium armor, you also gain that proficiency in heavy armor.</p><p><strong>Initial Benefit—Fortified Plate</strong> While wearing this signature tool, you gain resistance to physical damage dealt by your quarry equal to 2 + the value of the armor’s potency rune.</p><p><strong>Reinforced</strong> You also gain resistance equal to 1 + half your level to one of the trophy's damage types, chosen when you Reinforce your Arsenal.</p><p><strong>Slaying Technique—</strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.7Wyg7Z4HpK5NABep]{Armored Shelter}</p><p><strong>Specialized Arsenal (7th)</strong> You gain access to the armor specialization effects of this signature tool, and the initial benefit grants resistance to all damage dealt by your quarry. In addition, you can don or doff this signature tool as a single Interact action.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": {
+          "itemType": "armor",
+          "filter": [
+            "item:type:armor"
+          ]
+        },
+        "flag": "wardedMail",
+        "selection": "Compendium.pf2e.equipment-srd.Item.O3XAH3VkOx9a0FyD"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.wardedMail}",
+        "track": true,
+        "flag": "wardedMail"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.heavy.rank",
+        "value": "@actor.system.proficiencies.defenses.medium.rank"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.trackedItems.wardedMail}",
+          "origin:mark:quarry",
+          {
+            "or": [
+              {
+                "not": "feature:specialized-arsenal"
+              },
+              "parent:granter:slug:expanded-arsenal"
+            ]
+          }
+        ],
+        "type": "physical",
+        "value": "2 + @armor.system.runes.potency"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-actions.Item.7Wyg7Z4HpK5NABep"
+      },
+      {
+        "key": "RollOption",
+        "option": "fortified-plate-reinforced",
+        "toggleable": true,
+        "label": "PFPT.Slayer.WardedMail.FortifiedPlate.Reinforced.ToggleLabel",
+        "suboptions": {
+          "config": "damageTypes",
+          "predicate": [
+            {
+              "not": {
+                "eq": [
+                  "{choice|value}",
+                  "untyped"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.trackedItems.wardedMail}",
+          "fortified-plate-reinforced"
+        ],
+        "type": "{item|flags.pf2e.rulesSelections.fortifiedPlateReinforced}",
+        "value": "1 + floor(@actor.level / 2)"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.trackedItems.wardedMail}",
+          "origin:mark:quarry",
+          "feature:specialized-arsenal",
+          {
+            "not": "parent:granter:slug:expanded-arsenal"
+          }
+        ],
+        "type": "all-damage",
+        "value": "2 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.trackedItems.wardedMail}",
+          "armor:category:medium",
+          "armor:group:composite",
+          "feature:specialized-arsenal",
+          {
+            "not": "parent:granter:slug:expanded-arsenal"
+          }
+        ],
+        "type": "piercing",
+        "value": "1 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.trackedItems.wardedMail}",
+          "armor:category:medium",
+          "armor:group:leather",
+          "feature:specialized-arsenal",
+          {
+            "not": "parent:granter:slug:expanded-arsenal"
+          }
+        ],
+        "type": "bludgeoning",
+        "value": "1 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.trackedItems.wardedMail}",
+          "armor:category:medium",
+          "armor:group:plate",
+          "feature:specialized-arsenal",
+          {
+            "not": "parent:granter:slug:expanded-arsenal"
+          }
+        ],
+        "type": "slashing",
+        "value": "1 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.trackedItems.wardedMail}",
+          "armor:category:heavy",
+          "armor:group:composite",
+          "feature:specialized-arsenal",
+          {
+            "not": "parent:granter:slug:expanded-arsenal"
+          }
+        ],
+        "type": "piercing",
+        "value": "2 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.trackedItems.wardedMail}",
+          "armor:category:heavy",
+          "armor:group:leather",
+          "feature:specialized-arsenal",
+          {
+            "not": "parent:granter:slug:expanded-arsenal"
+          }
+        ],
+        "type": "bludgeoning",
+        "value": "2 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.trackedItems.wardedMail}",
+          "armor:category:heavy",
+          "armor:group:plate",
+          "feature:specialized-arsenal",
+          {
+            "not": "parent:granter:slug:expanded-arsenal"
+          }
+        ],
+        "type": "slashing",
+        "value": "2 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.trackedItems.wardedMail}",
+          "armor:category:medium",
+          "armor:group:skeletal",
+          "feature:specialized-arsenal",
+          {
+            "not": "parent:granter:slug:expanded-arsenal"
+          }
+        ],
+        "type": "precision",
+        "value": "3 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.trackedItems.wardedMail}",
+          "armor:category:heavy",
+          "armor:group:skeletal",
+          "feature:specialized-arsenal",
+          {
+            "not": "parent:granter:slug:expanded-arsenal"
+          }
+        ],
+        "type": "precision",
+        "value": "5 + @armor.system.runes.potency"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{actor|flags.pf2e.trackedItems.wardedMail}",
+        "mode": "add",
+        "property": "description",
+        "value": [
+          {
+            "text": "@Embed[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.e2yHoiqZP7PM22Cq inline]"
+          }
+        ]
+      }
+    ],
+    "slug": "warded-mail",
+    "traits": {
+      "otherTags": [
+        "slayer-signature-tool"
+      ],
+      "value": [
+        "slayer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "heavy": {
+          "rank": 1
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/equipment/chest/breastplate-layered-leather-blue-gold.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "e2yHoiqZP7PM22Cq",
+  "sort": -96484,
+  "_key": "!items!e2yHoiqZP7PM22Cq"
+}

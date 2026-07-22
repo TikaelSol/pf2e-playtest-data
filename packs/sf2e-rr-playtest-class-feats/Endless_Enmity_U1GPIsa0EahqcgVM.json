@@ -1,0 +1,88 @@
+{
+  "type": "feat",
+  "name": "Endless Enmity",
+  "folder": "KzRoYoxNDV1VRnxT",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "slayer"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p>You are always ready to face a creature that harms you or your allies. The frequency of @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.3rDrEZt3dP96OfQW]{Instant Enmity} becomes once per 10 minutes.</p>",
+      "gm": ""
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "mode": "override",
+        "property": "frequency-per",
+        "value": "PT10M",
+        "predicate": [
+          "item:slug:instant-enmity"
+        ],
+        "itemType": "feat"
+      }
+    ],
+    "slug": "endless-enmity",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Instant Enmity"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "U1GPIsa0EahqcgVM",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!U1GPIsa0EahqcgVM"
+}

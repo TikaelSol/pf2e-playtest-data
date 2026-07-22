@@ -1,0 +1,108 @@
+{
+  "name": "Effect: Paired Bloodseeker",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.KoAStTpjmvRMyS6x]{Paired Bloodseeker}</p><p>You designate a one-handed simple or martial weapon of your choice as a bloodseeker blade.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": {
+          "ownedItems": true,
+          "types": [
+            "weapon"
+          ],
+          "predicate": [
+            {
+              "or": [
+                "item:category:simple",
+                "item:category:martial"
+              ]
+            },
+            "item:usage:hands:1",
+            {
+              "nor": [
+                "item:tag:bloodseeking-blade",
+                "item:trait:consumable"
+              ]
+            }
+          ]
+        },
+        "flag": "weapon"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|flags.pf2e.rulesSelections.weapon}",
+        "mode": "add",
+        "property": "other-tags",
+        "value": "bloodseeking-blade"
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "{item|flags.pf2e.rulesSelections.weapon}-damage"
+        ],
+        "property": "dice-faces",
+        "mode": "downgrade",
+        "value": 4,
+        "slug": "bloody-fuller"
+      }
+    ],
+    "slug": "effect-paired-bloodseeker",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "uCzopTPhAXrFEGTD",
+  "img": "icons/weapons/daggers/dagger-glowing-white.webp",
+  "folder": null,
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!uCzopTPhAXrFEGTD"
+}

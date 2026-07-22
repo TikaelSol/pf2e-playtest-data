@@ -1,0 +1,89 @@
+{
+  "name": "Effect: Salt Stone",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.F5Ou81lhzj5hR8FC]{Salt Stone}</p><p>You choose a weapon you're wielding, and that weapon gains the effects of a <em>ghost touch</em> rune.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": {
+          "ownedItems": true,
+          "types": [
+            "weapon"
+          ],
+          "predicate": [
+            "item:equipped"
+          ]
+        },
+        "flag": "weapon",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "key": "AdjustStrike",
+        "property": "property-runes",
+        "definition": [
+          "item:id:{item|flags.pf2e.rulesSelections.weapon}"
+        ],
+        "value": "ghost-touch",
+        "mode": "add"
+      }
+    ],
+    "slug": "effect-salt-stone",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 2
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "3LoJQBdVBOEvZ1dE",
+  "img": "icons/commodities/stone/engraved-symbol-water-grey.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!3LoJQBdVBOEvZ1dE"
+}

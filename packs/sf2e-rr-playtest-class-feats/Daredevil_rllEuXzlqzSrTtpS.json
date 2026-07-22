@@ -1,0 +1,20 @@
+{
+  "name": "Daredevil",
+  "type": "Item",
+  "_id": "rllEuXzlqzSrTtpS",
+  "description": "",
+  "folder": null,
+  "sorting": "m",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!rllEuXzlqzSrTtpS"
+}

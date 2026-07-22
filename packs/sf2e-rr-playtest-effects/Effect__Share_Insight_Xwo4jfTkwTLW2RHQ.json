@@ -1,0 +1,146 @@
+{
+  "name": "Effect: Share Insight",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.QaPE8FIbbuVxcQCx]{Share Insight}</p><p>You gain a benefit based on your chosen signature tool.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.Nl1Aqj6JTdMv0qbB]{Bloodseeking Blade}</strong> Allies within 30 feet of you ignore 3 points of your quarry's resistance to any damage they deal.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.iihaKfTGSfA3kExA]{Chymist's Vials}</strong> Allies within 30 feet of you gain low-light vision, or darkvision if they already had low-light vision, and can detect your quarry as a precise sense within 30 feet.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.6Tvz8UCMxDx0nxHa]{Consecrated Panoply}</strong> Allies within 30 feet of you gain a +1 status bonus to saving throws against your quarry.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.e2yHoiqZP7PM22Cq]{Warded Mail}</strong> Allies within 30 feet of you have resistance 5 to damage dealt by your quarry.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "predicate": [
+          "self:signature:{item|origin.signature}"
+        ],
+        "choices": [
+          {
+            "label": "PFPT.Slayer.BloodseekingBlade.Label",
+            "value": "bloodseeking-blade"
+          },
+          {
+            "label": "PFPT.Slayer.ChymistsVials.Label",
+            "value": "chymists-vials"
+          },
+          {
+            "label": "PFPT.Slayer.ConsecratedPanoply.Label",
+            "value": "consecrated-panoply"
+          },
+          {
+            "label": "PFPT.Slayer.WardedMail.Label",
+            "value": "warded-mail"
+          }
+        ],
+        "rollOption": "share-insight"
+      },
+      {
+        "key": "RollOption",
+        "option": "share-insight-quarry",
+        "toggleable": true,
+        "label": "PFPT.Slayer.ShareInsight.ToggleLabel"
+      },
+      {
+        "key": "Note",
+        "predicate": [
+          "share-insight:bloodseeking-blade",
+          "share-insight-quarry"
+        ],
+        "selector": [
+          "damage"
+        ],
+        "title": "{item|name}",
+        "text": "PFPT.Slayer.ShareInsight.BloodseekingBlade.Note"
+      },
+      {
+        "key": "Sense",
+        "selector": "low-light-vision",
+        "predicate": [
+          "share-insight:chymists-vials",
+          "share-insight-quarry"
+        ]
+      },
+      {
+        "key": "Sense",
+        "selector": "darkvision",
+        "predicate": [
+          "share-insight:chymists-vials",
+          "share-insight-quarry"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "predicate": [
+          "share-insight:consecrated-panoply",
+          "share-insight-quarry"
+        ],
+        "selector": [
+          "saving-throw"
+        ],
+        "type": "status"
+      },
+      {
+        "key": "Resistance",
+        "type": "all-damage",
+        "value": 5,
+        "predicate": [
+          "share-insight:warded-mail",
+          "share-insight-quarry"
+        ]
+      }
+    ],
+    "slug": "effect-share-insight",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 10
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "Xwo4jfTkwTLW2RHQ",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!Xwo4jfTkwTLW2RHQ"
+}

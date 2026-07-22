@@ -1,0 +1,70 @@
+{
+  "folder": "6x9GsfOCgcy05Hq3",
+  "name": "Improved Stunt Flexibility",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your past exploits have prepared you for tomorrow's challenges. When you use stunt flexibility during your daily preparations, you can gain two daredevil feats instead of one. While the first feat must be of 8th level or lower, the second feat can be up to 14th level, and you can use the first feat to meet the prerequisites of the second feat. You must meet all the feats' prerequisites, and both feats must have the risky trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "improved-stunt-flexibility",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "daredevil"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "U3pcuXw9T3pVZBHS",
+  "img": "icons/skills/movement/ball-spinning-blue.webp",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "uALuXwktnyPWpcY7": 3,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.U3pcuXw9T3pVZBHS",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!U3pcuXw9T3pVZBHS"
+}

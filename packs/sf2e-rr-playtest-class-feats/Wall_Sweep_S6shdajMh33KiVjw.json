@@ -1,0 +1,74 @@
+{
+  "type": "feat",
+  "name": "Wall Sweep",
+  "folder": "BBuy2VGX5f1WeqR6",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "daredevil",
+        "manipulate"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You would be moved by a forced movement effect.</p><p><strong>Requirements</strong> You have adrenaline and are adjacent to at least one prop.</p><hr /><p>You use the environment around you to gain momentum from your forced movement. You can increase the amount of forced movement by up to 10 feet. If you do, you decide where your forced movement takes you (instead of the origin of the forced movement), though you can't end this forced movement in your original space.</p>",
+      "gm": ""
+    },
+    "rules": [],
+    "slug": "wall-sweep",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "S6shdajMh33KiVjw",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!S6shdajMh33KiVjw"
+}

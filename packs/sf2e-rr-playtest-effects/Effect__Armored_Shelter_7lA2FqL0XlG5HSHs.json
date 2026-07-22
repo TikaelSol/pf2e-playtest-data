@@ -1,0 +1,87 @@
+{
+  "name": "Effect: Armored Shelter",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.7Wyg7Z4HpK5NABep]{Armored Shelter}</p><p>You gain a +2 circumstance bonus to your AC and to Reflex saves against area effects.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac"
+        ],
+        "value": 2,
+        "type": "circumstance",
+        "slug": "armored-shelter-ac"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "reflex"
+        ],
+        "value": 2,
+        "type": "circumstance",
+        "slug": "armored-shelter-save",
+        "predicate": [
+          "area-effect"
+        ]
+      }
+    ],
+    "slug": "effect-armored-shelter",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "7lA2FqL0XlG5HSHs",
+  "img": "icons/equipment/head/helm-barbute-tan.webp",
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!7lA2FqL0XlG5HSHs"
+}

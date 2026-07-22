@@ -6,7 +6,7 @@
     "media": [
         {
             "type": "setup",
-            "caption": "Battlezoo Year of Mysteries",
+            "caption": "Pathfinder Playtest Data",
             "thumbnail": "modules/pf2e-playtest-data/assets/thumbnail.webp",
             "loop": false,
             "flags": {}
@@ -204,6 +204,128 @@
             "banner": "modules/pf2e-playtest-data/assets/tiles/tile-05.webp",
             "private": false,
             "flags": {}
+        },
+		{
+            "label": "Actions",
+            "name": "sf2e-impossible-playtest-actions",
+            "path": "packs/sf2e-impossible-playtest-actions",
+            "system": "sf2e",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "label": "Classes",
+            "name": "sf2e-impossible-playtest-classes",
+            "path": "packs/sf2e-impossible-playtest-classes",
+            "system": "sf2e",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "label": "Class Features",
+            "name": "sf2e-impossible-playtest-class-features",
+            "path": "packs/sf2e-impossible-playtest-class-features",
+            "system": "sf2e",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "label": "Effects",
+            "name": "sf2e-impossible-playtest-effects",
+            "path": "packs/sf2e-impossible-playtest-effects",
+            "system": "sf2e",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "label": "Feats",
+            "name": "sf2e-impossible-playtest-class-feats",
+            "path": "packs/sf2e-impossible-playtest-class-feats",
+            "system": "sf2e",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "label": "Runes",
+            "name": "sf2e-impossible-playtest-runes",
+            "path": "packs/sf2e-impossible-playtest-runes",
+            "system": "sf2e",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "label": "Spells",
+            "name": "sf2e-impossible-playtest-spells",
+            "path": "packs/sf2e-impossible-playtest-spells",
+            "system": "sf2e",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "label": "Thralls",
+            "name": "sf2e-impossible-playtest-thralls",
+            "path": "packs/sf2e-impossible-playtest-thralls",
+            "system": "sf2e",
+            "type": "Actor",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "label": "Actions",
+            "name": "sf2e-rr-playtest-actions",
+            "path": "packs/sf2e-rr-playtest-actions",
+            "system": "sf2e",
+            "type": "Item",
+            "banner": "modules/pf2e-playtest-data/assets/tiles/tile-00.webp",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "label": "Classes",
+            "name": "sf2e-rr-playtest-classes",
+            "path": "packs/sf2e-rr-playtest-classes",
+            "system": "sf2e",
+            "type": "Item",
+            "banner": "modules/pf2e-playtest-data/assets/tiles/tile-01.webp",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "label": "Class Features",
+            "name": "sf2e-rr-playtest-class-features",
+            "path": "packs/sf2e-rr-playtest-class-features",
+            "system": "sf2e",
+            "type": "Item",
+            "banner": "modules/pf2e-playtest-data/assets/tiles/tile-02.webp",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "label": "Effects",
+            "name": "sf2e-rr-playtest-effects",
+            "path": "packs/sf2e-rr-playtest-effects",
+            "system": "sf2e",
+            "type": "Item",
+            "banner": "modules/pf2e-playtest-data/assets/tiles/tile-03.webp",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "label": "Feats",
+            "name": "sf2e-rr-playtest-class-feats",
+            "path": "packs/sf2e-rr-playtest-class-feats",
+            "system": "sf2e",
+            "type": "Item",
+            "banner": "modules/pf2e-playtest-data/assets/tiles/tile-04.webp",
+            "private": false,
+            "flags": {}
         }
     ],
     "esmodules": [],
@@ -220,7 +342,16 @@
                 "impossible-playtest-spells",
                 "impossible-playtest-runes",
                 "impossible-playtest-journals",
-                "impossible-playtest-thralls"
+                "impossible-playtest-thralls",
+				"sf2e-impossible-playtest-actions",
+                "sf2e-impossible-playtest-classes",
+                "sf2e-impossible-playtest-class-features",
+                "sf2e-impossible-playtest-effects",
+                "sf2e-impossible-playtest-class-feats",
+                "sf2e-impossible-playtest-spells",
+                "sf2e-impossible-playtest-runes",
+                "sf2e-impossible-playtest-journals",
+                "sf2e-impossible-playtest-thralls"
             ]
         },
         {
@@ -232,7 +363,13 @@
                 "rr-playtest-class-features",
                 "rr-playtest-effects",
                 "rr-playtest-class-feats",
-                "rr-playtest-journals"
+                "rr-playtest-journals",
+				"sf2e-rr-playtest-actions",
+                "sf2e-rr-playtest-classes",
+                "sf2e-rr-playtest-class-features",
+                "sf2e-rr-playtest-effects",
+                "sf2e-rr-playtest-class-feats",
+                "sf2e-rr-playtest-journals"
             ]
         }
     ],
@@ -256,6 +393,14 @@
                 "compatibility": {
                     "minimum": "7.9",
                     "verified": "8.0"
+                }
+            },
+			{
+                "id": "sf2e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "1.0.3",
+                    "verified": "1.3.0"
                 }
             }
         ]

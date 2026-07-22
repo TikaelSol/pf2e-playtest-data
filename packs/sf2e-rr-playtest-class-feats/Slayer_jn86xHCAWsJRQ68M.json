@@ -1,0 +1,20 @@
+{
+  "name": "Slayer",
+  "type": "Item",
+  "_id": "jn86xHCAWsJRQ68M",
+  "description": "",
+  "folder": null,
+  "sorting": "m",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!jn86xHCAWsJRQ68M"
+}

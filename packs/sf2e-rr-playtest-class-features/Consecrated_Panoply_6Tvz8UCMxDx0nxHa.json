@@ -1,0 +1,177 @@
+{
+  "folder": "nl4dm7lchViZJXBa",
+  "name": "Consecrated Panoply",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Whether you worship a deity or not, you know that their trappings are anathema to many of the creatures you hunt. Your signature tool is a harness or coat that contains a seemingly endless array of charms and consecrated weapons, whether worn openly or in hidden pockets, and their blessings protect you and skewer your prey in equal measure.</p><p><strong>Initial Benefit—Safeguard Charms</strong> While wearing this signature tool, the consecrated charms within protect you from harm. You gain a +1 status bonus to saving throws against your quarry.</p><p><strong>Reinforced</strong> You also gain a +1 status bonus to saving throws against creatures with any of the trophy's traits and against spells of any of the trophy's traditions.</p><p><strong>Slaying Technique—</strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.BR1P3Dy0gjsuKu7V]{Hunting Spike}</p><p><strong>Specialized Arsenal (7th)</strong> Your hunting spikes function as a +1 striking daggers. In addition, they are treated as either cold iron or silver, chosen when you Reinforce your Arsenal. At 13th level, they function as +2 greater striking daggers. At 19th level, they function as +3 major striking daggers, and you can choose for them to be treated as adamantine instead of cold iron or silver when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-actions.Item.BR1P3Dy0gjsuKu7V"
+      },
+      {
+        "key": "RollOption",
+        "label": "PFPT.Slayer.ConsecratedPanoply.SafeguardCharms.Reinforced.ToggleLabel",
+        "option": "safeguard-charms-reinforced",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "type": "status",
+        "selector": [
+          "saving-throw"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "origin:mark:quarry",
+              "safeguard-charms-reinforced"
+            ]
+          }
+        ],
+        "label": "PFPT.Slayer.ConsecratedPanoply.SafeguardCharms.Label"
+      },
+      {
+        "label": "PFPT.Slayer.ConsecratedPanoply.HuntingSpike.MaterialToggleLabel",
+        "key": "RollOption",
+        "option": "hunting-spike-material",
+        "toggleable": true,
+        "alwaysActive": true,
+        "suboptions": [
+          {
+            "label": "PF2E.PreciousMaterialAdamantine",
+            "value": "adamantine",
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  19
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.PreciousMaterialColdIron",
+            "value": "cold-iron"
+          },
+          {
+            "label": "PF2E.PreciousMaterialSilver",
+            "value": "silver"
+          }
+        ],
+        "predicate": [
+          "feature:specialized-arsenal",
+          {
+            "not": "parent:granter:slug:expanded-arsenal"
+          }
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:slug:hunting-spike"
+        ],
+        "property": "materials",
+        "mode": "add",
+        "value": "{item|flags.pf2e.rulesSelections.huntingSpikeMaterial}",
+        "predicate": [
+          "feature:specialized-arsenal",
+          {
+            "not": "parent:granter:slug:expanded-arsenal"
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "predicate": [
+          "item:slug:hunting-spike",
+          "feature:specialized-arsenal",
+          {
+            "not": "parent:granter:slug:expanded-arsenal"
+          }
+        ],
+        "property": "runes-potency",
+        "itemType": "weapon",
+        "mode": "upgrade",
+        "value": "ternary(gte(@actor.level,19),3,ternary(gte(@actor.level,13),2,1))"
+      },
+      {
+        "key": "ItemAlteration",
+        "predicate": [
+          "item:slug:hunting-spike",
+          "feature:specialized-arsenal",
+          {
+            "not": "parent:granter:slug:expanded-arsenal"
+          }
+        ],
+        "property": "runes-striking",
+        "itemType": "weapon",
+        "mode": "upgrade",
+        "value": "ternary(gte(@actor.level,19),3,ternary(gte(@actor.level,13),2,1))"
+      }
+    ],
+    "slug": "consecrated-panoply",
+    "traits": {
+      "otherTags": [
+        "slayer-signature-tool"
+      ],
+      "value": [
+        "slayer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/containers/bags/pouch-leather-gold-tan.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "6Tvz8UCMxDx0nxHa",
+  "sort": -200000,
+  "_key": "!items!6Tvz8UCMxDx0nxHa"
+}

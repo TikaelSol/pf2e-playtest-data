@@ -1,0 +1,55 @@
+{
+  "folder": "dopRsSdruXAlWR2I",
+  "name": "On the Hunt",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You see your quarry be critically hit, or any creature within 60 feet be reduced to 0 Hit Points.</p><hr /><p>You throw yourself into battle, redoubling your efforts. You gain the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} condition until the end of your next turn, but can use the extra action only to Step, Stride, or use an action with the relentless trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "on-the-hunt",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slayer"
+      ]
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "O0SU1cAh8ijq7Z4J",
+  "sort": -171875,
+  "_key": "!items!O0SU1cAh8ijq7Z4J"
+}

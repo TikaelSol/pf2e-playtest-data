@@ -1,0 +1,74 @@
+{
+  "type": "feat",
+  "name": "Blood For Blood",
+  "folder": "OfVW6JnwF2VnhFru",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "flourish",
+        "slayer"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> A creature critically hit you with an attack since the end of your previous turn.</p><hr /><p>You viciously return your foe's attack, reinvigorating yourself with your vengeance. Make a Strike against the required creature. If this Strike hits, you gain temporary Hit Points equal to half your level or the damage the triggering attack dealt, whichever is lower, which last for 1 minute.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.unA01lIdrj424i0Y]{Effect: Blood for Blood (Half Level)}</p>",
+      "gm": ""
+    },
+    "rules": [],
+    "slug": "blood-for-blood",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "A3F3XKjkZVrwefU1",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!A3F3XKjkZVrwefU1"
+}

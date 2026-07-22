@@ -1,0 +1,103 @@
+{
+  "type": "equipment",
+  "name": "Aiuen, The Elf-Gate Key Rune",
+  "folder": null,
+  "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Usage</strong> drawn on a creature</p><hr /><p>This masterful circular rune is key to the <em>aiudara</em> network of elf gates that stretch across the stars. Once per turn, when the rune-bearer takes a Stride action, they can instead teleport a distance equal to their Speed.</p><p><strong>Invocation</strong> You teleport the rune-bearer to a location adjacent to any of your other runes, as long as it is on the same plane. An unwilling target can attempt a @Check[will|against:runesmith] save to resist this teleportation.</p><hr /><p><strong>Special</strong> If you have the ability to cast the @UUID[Compendium.pf2e.spells-srd.Item.AUctDF2fqPZN2w4W]{Sigil} cantrip, then you can use aiuen's invocation to teleport the rune bearer to a location adjacent to any of your sigils on the same plane, in addition to any of your runes.</p>"
+    },
+    "rules": [],
+    "slug": "aiuen-the-elf-gate-key-rune",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "arcane",
+        "elf",
+        "rune",
+        "runesmith",
+        "teleportation"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Impossible Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0,
+      "heldOrStowed": 0,
+      "per": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other",
+      "type": "worn"
+    },
+    "subitems": []
+  },
+  "_id": "5f87w7rWV2sjGb8z",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrkQVtB9iGZvxqph": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1",
+    "exportSource": null
+  },
+  "_key": "!items!5f87w7rWV2sjGb8z"
+}

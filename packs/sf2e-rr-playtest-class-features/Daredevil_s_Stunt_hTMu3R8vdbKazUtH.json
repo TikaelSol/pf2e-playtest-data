@@ -1,0 +1,94 @@
+{
+  "folder": "6x9GsfOCgcy05Hq3",
+  "name": "Daredevil's Stunt",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "description": {
+      "value": "<p>Where others see danger, you see opportunities to debilitate and inconvenience your enemies. You gain an additional 1st-level daredevil feat that must have the risky trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:level:1",
+            "item:category:class",
+            "item:trait:daredevil",
+            "item:trait:risky"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "feat",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.LevelOneClassFeat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.feat}"
+      }
+    ],
+    "slug": "daredevils-stunt",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "daredevil"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "hTMu3R8vdbKazUtH",
+  "img": "icons/magic/lightning/fist-unarmed-strike-blue-green.webp",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "uALuXwktnyPWpcY7": 3,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!hTMu3R8vdbKazUtH"
+}

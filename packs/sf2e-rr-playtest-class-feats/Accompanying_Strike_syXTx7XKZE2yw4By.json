@@ -1,0 +1,99 @@
+{
+  "type": "feat",
+  "name": "Accompanying Strike",
+  "folder": "fp4p9ttM20Mt63fZ",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "daredevil",
+        "press"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You used your previous action to make a melee Strike with a one-handed weapon that missed.</p><hr /><p>Though your first attack missed, you bring your weapon around for another blow. Make a Strike with the same weapon, adding the backswing trait and increasing the size of the damage die by one step.</p>",
+      "gm": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "accompanying-strike",
+        "toggleable": true
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "predicate": [
+          "accompanying-strike"
+        ],
+        "property": "traits",
+        "value": "backswing",
+        "mode": "add"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "predicate": [
+          "accompanying-strike"
+        ],
+        "property": "damage-dice-faces",
+        "mode": "upgrade"
+      }
+    ],
+    "slug": "accompanying-strike",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "syXTx7XKZE2yw4By",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_key": "!items!syXTx7XKZE2yw4By"
+}

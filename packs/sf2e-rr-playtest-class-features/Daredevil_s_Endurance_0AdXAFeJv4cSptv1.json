@@ -1,0 +1,93 @@
+{
+  "folder": "6x9GsfOCgcy05Hq3",
+  "name": "Daredevil's Endurance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "description": {
+      "value": "<p>You're used to taking punishment and recovering from the aftermath. You gain the @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Diehard} general feat, and when you receive healing from @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9] or @UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{Battle Medicine}, you gain a circumstance bonus to the healing equal to your level.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "action:battle-medicine",
+              "action:treat-wounds"
+            ]
+          }
+        ],
+        "selector": "healing-received",
+        "type": "circumstance",
+        "value": "@actor.level"
+      }
+    ],
+    "slug": "daredevils-endurance",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "daredevil"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "0AdXAFeJv4cSptv1",
+  "img": "icons/magic/life/heart-shadow-red.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "uALuXwktnyPWpcY7": 3,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!0AdXAFeJv4cSptv1"
+}

@@ -1,0 +1,75 @@
+{
+  "type": "feat",
+  "name": "Freewheeling Strike",
+  "folder": "TFX9KA8V8OMcmcmg",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "daredevil",
+        "flourish",
+        "risky"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are adjacent to at least one prop.</p><hr /><p>Using your environment, you slip past your enemies, attacking each along the way. Stride, but you must remain adjacent to props during your entire movement. Make a melee Strike against each enemy that is within your reach at any point along the way. Each attack counts toward your multiple attack penalty, but you do not increase your penalty until you have made all your attacks. You can Strike a single creature only once during your movement.</p>",
+      "gm": ""
+    },
+    "rules": [],
+    "slug": "freewheeling-strike",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "nqxZiuvHT2lVOCbN",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!nqxZiuvHT2lVOCbN"
+}

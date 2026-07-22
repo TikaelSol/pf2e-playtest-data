@@ -1,0 +1,85 @@
+{
+  "folder": "nl4dm7lchViZJXBa",
+  "name": "Slayer's Arsenal",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>As a slayer, you have an arsenal of hunting tools which you specially prepare to target your current quarry. Your hunting tools have no effect in anyone's hands but yours. If you lose any of your hunting tools, you can replace all missing tools with one week of downtime. Many hunting tools represent a specific piece of equipment, typically a level 0 common item , which you gain automatically and don't need to pay for; you can replace such a tool with a new item of the same kind or add runes to an eligible item, but you must pay for them normally. At 1st level, you have a signature tool, a special hunting tool for which you have a particular affinity and which you are especially adept at modifying to suit your quarry. Choose a signature tool, gaining its initial benefit and a unique action called a slaying technique.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.Nl1Aqj6JTdMv0qbB]{Bloodseeking Blade}</strong> Your signature tool is a unique and powerful weapon.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.iihaKfTGSfA3kExA]{Chymist's Vials}</strong> Your signature tool is a set of unique alchemical vials and the equipment to prepare more.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.6Tvz8UCMxDx0nxHa]{Consecrated Panoply}</strong> Your signature tool is a set of consecrated charms and side-arms.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.e2yHoiqZP7PM22Cq]{Warded Mail}</strong> Your signature tool is a suit of sturdy, customized armor.</p><p>In addition to your signature tool, you can gain extra hunting tools called secondary tools through slayer class feats, expanding your arsenal.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": {
+          "filter": [
+            "item:tag:slayer-signature-tool"
+          ]
+        },
+        "flag": "signatureTool",
+        "prompt": "PFPT.Slayer.SlayersArsenal.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.signatureTool}"
+      }
+    ],
+    "slug": "slayers-arsenal",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slayer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/survival/cuffs-shackles-ball.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "xrcHd81Rz1gUQDyv",
+  "sort": -95653,
+  "_key": "!items!xrcHd81Rz1gUQDyv"
+}

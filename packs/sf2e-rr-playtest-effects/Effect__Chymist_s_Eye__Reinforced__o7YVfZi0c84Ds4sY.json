@@ -1,0 +1,138 @@
+{
+  "name": "Effect: Chymist's Eye (Reinforced)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.yDiXffIZxAGHQMAv]{Chymist's Eye}</p><p>You gain a vision sense.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "PF2E.Actor.Creature.Sense.Type.Darkvision",
+            "value": "darkvision"
+          },
+          {
+            "label": "PF2E.Actor.Creature.Sense.Type.GreaterDarkvision",
+            "value": "greater-darkvision"
+          },
+          {
+            "label": "PF2E.Actor.Creature.Sense.Type.InfraredVision",
+            "value": "infrared-vision"
+          },
+          {
+            "label": "PF2E.Actor.Creature.Sense.Type.LowLightVision",
+            "value": "low-light-vision"
+          },
+          {
+            "label": "PF2E.Actor.Creature.Sense.Type.SeeInvisibility",
+            "value": "see-invisibility"
+          },
+          {
+            "label": "PF2E.Actor.Creature.Sense.Type.Truesight",
+            "value": "truesight"
+          }
+        ],
+        "rollOption": "chymists-eye"
+      },
+      {
+        "key": "Sense",
+        "selector": "darkvision",
+        "predicate": [
+          "chymists-eye:darkvision"
+        ]
+      },
+      {
+        "key": "Sense",
+        "selector": "greater-darkvision",
+        "predicate": [
+          "chymists-eye:greater-darkvision"
+        ]
+      },
+      {
+        "key": "Sense",
+        "selector": "infrared-vision",
+        "predicate": [
+          "chymists-eye:infrared-vision"
+        ]
+      },
+      {
+        "key": "Sense",
+        "selector": "low-light-vision",
+        "predicate": [
+          "chymists-eye:low-light-vision"
+        ]
+      },
+      {
+        "key": "Sense",
+        "selector": "see-invisibility",
+        "predicate": [
+          "chymists-eye:see-invisibility"
+        ]
+      },
+      {
+        "key": "Sense",
+        "selector": "truesight",
+        "predicate": [
+          "chymists-eye:truesight"
+        ]
+      }
+    ],
+    "slug": "effect-chymists-eye-reinforced",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 10,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "o7YVfZi0c84Ds4sY",
+  "img": "icons/creatures/eyes/slime-single-red.webp",
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!o7YVfZi0c84Ds4sY"
+}

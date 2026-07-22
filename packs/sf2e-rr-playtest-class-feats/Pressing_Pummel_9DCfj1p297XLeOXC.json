@@ -1,0 +1,90 @@
+{
+  "type": "feat",
+  "name": "Pressing Pummel",
+  "folder": "gFe8EWz0Z0dhfsGz",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "daredevil",
+        "flourish",
+        "press"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You have adrenaline.</p><hr /><p>You put all your might behind a follow up attack. Make a melee Strike. If this Strike hits, you deal an extra 1d10 damage of the same type of damage of your Strike. If you're at least 10th level, increase this to 2d10, and if you're at least 18th level, increase it to 3d10.</p>",
+      "gm": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "pressing-pummel",
+        "toggleable": true
+      },
+      {
+        "diceNumber": "ternary(gte(@actor.level,18),3,ternary(gte(@actor.level,10),2,1))",
+        "dieSize": "d10",
+        "key": "DamageDice",
+        "predicate": [
+          "pressing-pummel"
+        ],
+        "selector": "melee-strike-damage"
+      }
+    ],
+    "slug": "pressing-pummel",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "9DCfj1p297XLeOXC",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!9DCfj1p297XLeOXC"
+}

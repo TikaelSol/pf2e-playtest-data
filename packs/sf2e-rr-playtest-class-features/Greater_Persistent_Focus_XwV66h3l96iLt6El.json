@@ -1,0 +1,94 @@
+{
+  "folder": "nl4dm7lchViZJXBa",
+  "name": "Greater Persistent Focus",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your trained mind is almost impenetrable. Your proficiency rank for Will saves increases to legendary. When you roll a critical failure on a Will save, you get a failure instead. When you fail a Will save against an effect that deals damage, you halve the damage you take.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "adjustment": {
+          "criticalFailure": "to-failure"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "will"
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "failure"
+        ],
+        "predicate": [
+          "damaging-effect"
+        ],
+        "selector": "will",
+        "text": "PF2E.SpecificRule.SaveCriticalFailureToFailure.FailureHalfDamage.Will",
+        "title": "{item|name}"
+      }
+    ],
+    "slug": "greater-persistent-focus",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slayer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "will": {
+          "rank": 4,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "XwV66h3l96iLt6El",
+  "sort": -25000,
+  "_key": "!items!XwV66h3l96iLt6El"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Level 8",
+  "folder": "rllEuXzlqzSrTtpS",
+  "type": "Item",
+  "_id": "fp4p9ttM20Mt63fZ",
+  "description": "",
+  "sorting": "a",
+  "sort": 287500,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!fp4p9ttM20Mt63fZ"
+}

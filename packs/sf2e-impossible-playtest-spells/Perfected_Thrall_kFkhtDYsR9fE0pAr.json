@@ -1,0 +1,102 @@
+{
+  "type": "spell",
+  "name": "Perfected Thrall",
+  "folder": null,
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You create a perfect thrall made of pure muscle, covered in a bony exoskeleton, inhabited by the spirit of a mighty warrior. You create a thrall that has 200 Hit Points. Whenever you use an ability that would destroy this thrall, it instead loses 20 Hit Points.</p><p>Once per round on subsequent turns, you can Sustain the spell to have this thrall Stride up to 30 feet and have it Strike an adjacent enemy using your spell attack modifier. On a hit, the target takes 7d10 bludgeoning damage.</p><p>@UUID[Compendium.pf2e-playtest-data.impossible-playtest-thralls.Actor.SX5QACMD5SvH9oeZ]{Perfected Thrall}</p>"
+    },
+    "rules": [],
+    "slug": "perfected-thrall",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "grave",
+        "manipulate",
+        "necromancer",
+        "thrall"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Pathfinder Impossible Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "mjchKt5qR8ljwHXA": {
+        "formula": "7d10",
+        "kinds": [
+          "damage"
+        ],
+        "type": "bludgeoning",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "passive": {
+        "statistic": "ac"
+      },
+      "save": null
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "kFkhtDYsR9fE0pAr",
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrkQVtB9iGZvxqph": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1",
+    "exportSource": null
+  },
+  "_key": "!items!kFkhtDYsR9fE0pAr"
+}

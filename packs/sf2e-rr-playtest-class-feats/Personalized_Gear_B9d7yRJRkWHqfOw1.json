@@ -1,0 +1,132 @@
+{
+  "type": "feat",
+  "name": "Personalized Gear",
+  "folder": "Wz7eudMH1zuSNT6B",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "slayer"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p>Your signature tool is even more closely fit to your specifications than most slayers, enhancing its performance. If you have a @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.Nl1Aqj6JTdMv0qbB]{Bloodseeking Blade} signature tool with the parry trait, the circumstance bonus to AC from positioning it defensively increases to +2, and if you have a bloodseeking blade signature tool with the backstabber trait, the extra precision damage increases by 1. If you have a @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.e2yHoiqZP7PM22Cq]{Warded Mail} signature tool, it gains the comfort trait if it didn't already have it, and you ignore its reduction to your speed.</p>",
+      "gm": ""
+    },
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "predicate": [
+          "bloodseeking-blade:equipped",
+          "bloodseeking-blade:trait:parry"
+        ],
+        "slug": "parry-bonus",
+        "mode": "upgrade",
+        "value": 2,
+        "selector": "ac"
+      },
+      {
+        "key": "RollOption",
+        "option": "personalized-gear-paired",
+        "toggleable": true,
+        "predicate": [
+          "self:effect:paired-bloodseeker",
+          {
+            "not": "bloodseeking-blade:trait:parry"
+          }
+        ],
+        "label": "PFPT.Slayer.PersonalizedGear.PairedBloodseekerToggleLabel"
+      },
+      {
+        "key": "AdjustModifier",
+        "predicate": [
+          "item:trait:backstabber",
+          "item:tag:bloodseeking-blade"
+        ],
+        "slug": "backstabber",
+        "mode": "add",
+        "value": 1,
+        "selector": "strike-damage"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "override",
+        "itemId": "{actor|flags.pf2e.trackedItems.wardedMail}",
+        "property": "speed-penalty",
+        "value": 0,
+        "predicate": [
+          "feature:warded-mail"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "itemId": "{actor|flags.pf2e.trackedItems.wardedMail}",
+        "property": "traits",
+        "value": "comfort",
+        "predicate": [
+          "feature:warded-mail"
+        ]
+      }
+    ],
+    "slug": "personalized-gear",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "bloodseeking blade or warded mail signature tool"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "B9d7yRJRkWHqfOw1",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!B9d7yRJRkWHqfOw1"
+}

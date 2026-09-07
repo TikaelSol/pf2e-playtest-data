@@ -1,0 +1,101 @@
+{
+  "type": "equipment",
+  "name": "Oljinex, Rune of Cowards' Bane",
+  "folder": null,
+  "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Usage</strong> drawn on a shield</p><hr /><p>This rune resembles a broken arrow. While the shield is raised, it also grants the bearer a +1 status bonus to AC against physical ranged attacks.</p><p>@UUID[Compendium.pf2e-playtest-data.impossible-playtest-effects.Item.janzhnKlCAeVkYHk]{Effect: Oljinex, Rune of Cowards' Bane}</p><p><strong>Invocation</strong> (illusion, mental, visual) The rune creates an illusion in the minds of all creatures adjacent to the rune-bearer that lasts for 1 round. The illusion is of a large impassable wall blocking all paths away from the rune-bearer. Creatures affected by this invocation can't willing move further away from the rune bearer for 1 round or until they disbelieve the illusion, usually by using a @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action against your class DC.</p>"
+    },
+    "rules": [],
+    "slug": "oljinex-rune-of-cowards-bane",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "occult",
+        "rune",
+        "runesmith"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Impossible Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0,
+      "heldOrStowed": 0,
+      "per": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other",
+      "type": "worn"
+    },
+    "subitems": []
+  },
+  "_id": "Q4INkfHzqn6tm4LM",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrkQVtB9iGZvxqph": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1",
+    "exportSource": null
+  },
+  "_key": "!items!Q4INkfHzqn6tm4LM"
+}

@@ -1,0 +1,113 @@
+{
+  "folder": "6x9GsfOCgcy05Hq3",
+  "name": "Adrenaline",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "description": {
+      "value": "<p>As you slip past the deadly blades of your opponents and perform stunts that put life and limb on the line, the thrill of danger washes through your veins. This heightened state is called adrenaline.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.umW1IeaFUyl4K5qT]</p><p>You gain adrenaline by performing actions that have the risky trait. The GM might determine that a particularly dangerous action, such as leaping a deep chasm, or sprinting across hazardous terrain, gains the risky trait. Such stunts typically involve at least one action and either automatically deal damage to you or risk dealing damage as the result of a failed skill check or saving throw.</p><p>You gain adrenaline at the start of the risky action (before you move or attempt any rolls) and the adrenaline lasts until the beginning of your next turn, so you must constantly perform risky actions to keep your adrenaline flowing. Normally, you gain and keep adrenaline only in combat encounters, and when an encounter ends, you lose adrenaline.</p><p>To help you gain adrenaline, you gain the @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.av2WNd6sz9r0VH4C]{Daring Stunt} action. Other daredevil actions, such as certain class feats, require you to have adrenaline.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-actions.Item.av2WNd6sz9r0VH4C"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "description",
+        "mode": "add",
+        "value": [
+          {
+            "text": "PFPT.Daredevil.Adrenaline.Alteration"
+          },
+          {
+            "text": "@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.umW1IeaFUyl4K5qT]"
+          }
+        ],
+        "predicate": [
+          "item:trait:risky"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "property": "description",
+        "mode": "add",
+        "value": [
+          {
+            "text": "PFPT.Daredevil.Adrenaline.Alteration"
+          },
+          {
+            "text": "@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.umW1IeaFUyl4K5qT]"
+          }
+        ],
+        "predicate": [
+          "item:trait:risky"
+        ]
+      }
+    ],
+    "slug": "adrenaline",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "daredevil"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "HAjDJbdawcI5TjTG",
+  "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "uALuXwktnyPWpcY7": 3,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!HAjDJbdawcI5TjTG"
+}

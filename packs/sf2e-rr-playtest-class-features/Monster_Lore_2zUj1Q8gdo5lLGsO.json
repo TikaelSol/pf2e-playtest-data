@@ -1,0 +1,69 @@
+{
+  "folder": "nl4dm7lchViZJXBa",
+  "name": "Monster Lore",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your training and experience means you have comprehensive knowledge about dangerous monsters, and can often correctly deduce information about even creatures that are new to you. You become trained in Monster Lore, a special lore skill that can be used to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about non-humanoid creatures of any kind, but typically only to identify their notable vulnerabilities, resistances, and weakest defenses. Monster Lore can't be used to Recall Knowledge about topics other than creatures.</p><p>At 3rd level, you become an expert in Monster Lore; at 7th level, you become a master in Monster Lore; and at 15th level, you become legendary in Monster Lore.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "monster-lore",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slayer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "2zUj1Q8gdo5lLGsO",
+  "sort": -93750,
+  "_key": "!items!2zUj1Q8gdo5lLGsO"
+}

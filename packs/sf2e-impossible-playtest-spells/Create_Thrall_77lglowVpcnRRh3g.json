@@ -1,0 +1,150 @@
+{
+  "folder": null,
+  "name": "Create Thrall",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You conjure forth an expendable undead thrall in range. If you have the expert necromancy class feature, you can create up to two thralls, increasing to three if you have master necromancy and four if you have legendary necromancy. When you cast the spell, you can have up to one thrall created by this spell make a melee unarmed Strike using your spell attack modifier for the attack roll. This attack deals your choice of 1d6 bludgeoning, piercing, or slashing damage. This Strike uses and counts toward your multiple attack penalty.</p><p>@UUID[Compendium.pf2e-playtest-data.impossible-playtest-thralls.Actor.ISmLeI8zNc6YWysQ]{Thrall}</p><hr /><p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "create-thrall",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "cantrip",
+        "concentrate",
+        "grave",
+        "manipulate",
+        "necromancer",
+        "thrall"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Pathfinder Impossible Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "51WiAeJNF7jHwe78": {
+        "formula": "1d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "bludgeoning",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {
+        "51WiAeJNF7jHwe78": "1d6"
+      },
+      "area": 0
+    },
+    "overlays": {
+      "eHplmm6H4veUfYm7": {
+        "name": "Create Thrall (Bludgeoning)",
+        "system": {
+          "damage": {
+            "51WiAeJNF7jHwe78": {
+              "category": null
+            }
+          },
+          "defense": null
+        },
+        "sort": 1,
+        "overlayType": "override"
+      },
+      "jviuQm5UH3FD5uTS": {
+        "name": "Create Thrall (Piercing)",
+        "system": {
+          "damage": {
+            "51WiAeJNF7jHwe78": {
+              "type": "piercing",
+              "category": null,
+              "kinds": [
+                "damage"
+              ]
+            }
+          },
+          "defense": null
+        },
+        "sort": 2,
+        "overlayType": "override"
+      },
+      "3nAWdY7qVanzRzbB": {
+        "name": "Create Thrall (Slashing)",
+        "system": {
+          "damage": {
+            "51WiAeJNF7jHwe78": {
+              "type": "slashing",
+              "category": null,
+              "kinds": [
+                "damage"
+              ]
+            }
+          },
+          "defense": null
+        },
+        "sort": 3,
+        "overlayType": "override"
+      }
+    }
+  },
+  "_id": "77lglowVpcnRRh3g",
+  "img": "icons/magic/death/undead-zombie-grave-green.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrkQVtB9iGZvxqph": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1",
+    "exportSource": null
+  },
+  "_key": "!items!77lglowVpcnRRh3g"
+}

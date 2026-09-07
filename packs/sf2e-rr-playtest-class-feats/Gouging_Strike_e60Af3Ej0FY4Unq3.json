@@ -1,0 +1,89 @@
+{
+  "type": "feat",
+  "name": "Gouging Strike",
+  "folder": "J3IIOMXj7NHkcFN2",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "flourish",
+        "slayer"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p>You twist your weapon, gouging your prey deeply and making them vulnerable. Make a melee Strike. If this Strike hits, you deal an additional die of persistent bleed damage with the same die size as the Strike's weapon damage dice. The target gains weakness 3 to physical damage until the start of your next turn or until it is no longer taking this persistent bleed damage, whichever comes first.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.qzPg2gpSvdYpo375]{Effect: Gouging Strike}</p>",
+      "gm": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "gouging-strike",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "diceNumber": 1,
+        "damageType": "bleed",
+        "selector": "strike-attack-roll",
+        "predicate": [
+          "gouging-strike"
+        ]
+      }
+    ],
+    "slug": "gouging-strike",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "e60Af3Ej0FY4Unq3",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!e60Af3Ej0FY4Unq3"
+}

@@ -1,0 +1,113 @@
+{
+  "folder": "nl4dm7lchViZJXBa",
+  "name": "Chymist's Vials",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You believe that a battle is won well before it begins, and you use your knowledge of alchemy and herbalism to guarantee victory. Your signature tool is an @UUID[Compendium.pf2e.equipment-srd.Item.4ftXXUCBHcf4b0MH]{Alchemist's Toolkit} that contains the following special alchemical concoctions, which you can use while wearing it. You can designate a different alchemist's toolkit as your signature tool when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}, transferring your special adjustments to it. In addition, you gain the @UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{Alchemical Crafting} skill feat.</p><p><strong>Initial Benefit—</strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.yDiXffIZxAGHQMAv]{Chymist's Eye}</p><p><strong>Slaying Technique—</strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.iCrcpEFp5MJRbgcW]{Ignition Vial}</p><p><strong>Specialized Arsenal (7th)</strong> The frequency of Ignition Vial and Chymist's Eye both become once per round.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.equipment-srd.Item.4ftXXUCBHcf4b0MH",
+        "flag": "chymistsVials"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|flags.pf2e.itemGrants.chymistsVials.id}",
+        "mode": "add",
+        "property": "description",
+        "value": [
+          {
+            "text": "@Embed[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.iihaKfTGSfA3kExA inline]"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-actions.Item.yDiXffIZxAGHQMAv"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-actions.Item.iCrcpEFp5MJRbgcW"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "override",
+        "property": "frequency-per",
+        "itemType": "action",
+        "predicate": [
+          "feature:specialized-arsenal",
+          {
+            "not": "parent:granter:slug:expanded-arsenal"
+          }
+        ],
+        "value": "round"
+      }
+    ],
+    "slug": "chymists-vials",
+    "traits": {
+      "otherTags": [
+        "slayer-signature-tool"
+      ],
+      "value": [
+        "slayer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/consumables/potions/vial-cork-blue.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "iihaKfTGSfA3kExA",
+  "sort": -50000,
+  "_key": "!items!iihaKfTGSfA3kExA"
+}

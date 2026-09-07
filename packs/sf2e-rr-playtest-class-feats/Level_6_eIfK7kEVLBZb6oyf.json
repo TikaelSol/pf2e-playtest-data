@@ -1,0 +1,20 @@
+{
+  "name": "Level 6",
+  "folder": "jn86xHCAWsJRQ68M",
+  "type": "Item",
+  "_id": "eIfK7kEVLBZb6oyf",
+  "description": "",
+  "sorting": "a",
+  "sort": 275000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!eIfK7kEVLBZb6oyf"
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Effect: Weapon Twist Stunt",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.q7NLvMt4M4a6ikTZ]{Weapon Twist Stunt}</p><p>You take a circumstance penalty to the selected attack.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.Check.Result.Degree.Check.failure",
+            "value": -1
+          },
+          {
+            "label": "PF2E.Check.Result.Degree.Check.success",
+            "value": -2
+          }
+        ],
+        "flag": "penalty",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.DegreeOfSuccess"
+      },
+      {
+        "adjustName": false,
+        "choices": {
+          "attacks": true,
+          "predicate": [
+            "item:equipped",
+            {
+              "not": "item:category:unarmed"
+            }
+          ]
+        },
+        "flag": "weapon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "key": "FlatModifier",
+        "value": "@item.flags.pf2e.rulesSelections.penalty",
+        "type": "circumstance",
+        "selector": [
+          "{item|flags.pf2e.rulesSelections.weapon}-attack"
+        ]
+      }
+    ],
+    "slug": "effect-weapon-twist-stunt",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 6
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "KPtuzICWfWFGRHIT",
+  "img": "icons/skills/melee/sword-twirl-orange.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!KPtuzICWfWFGRHIT"
+}

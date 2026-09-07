@@ -1,0 +1,74 @@
+{
+  "folder": "nl4dm7lchViZJXBa",
+  "name": "Slayer Mastery",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your use of your tools is unparalleled. Your proficiency rank for your slayer class DC increases to master.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "slayer-mastery",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slayer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "slayer": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/skills/ranged/shuriken-thrown-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "MD3KntxPjFsCmAlm",
+  "sort": -79687,
+  "_key": "!items!MD3KntxPjFsCmAlm"
+}

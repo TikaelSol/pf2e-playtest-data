@@ -1,0 +1,143 @@
+{
+  "folder": "dopRsSdruXAlWR2I",
+  "name": "Ignition Vial",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per minute</p><hr /><p><strong>Effect</strong> You drink an ignition vial, then blow a cloud of deadly energy from your mouth. Creatures in a @Template[cone|distance:15] take @Damage[(1+ceil(@actor.level / 2))d4[fire]|options:area-damage] damage with a @Check[reflex|against:slayer|basic|options:area-effect] save against your class DC. The damage increases by 1d4 at 3rd level and every 2 levels thereafter.</p><p><strong>Reinforced</strong> Ignition Vial deals one of the trophy's non-physical damage types, if any, instead of fire, and has the matching trait instead of fire.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "ignition-vial-reinforced",
+        "toggleable": true,
+        "label": "PFPT.Slayer.ChymistsVials.IgnitionVial.Reinforced.ToggleLabel",
+        "suboptions": [
+          {
+            "label": "PF2E.TraitAcid",
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitForce",
+            "value": "force"
+          },
+          {
+            "label": "PF2E.TraitMental",
+            "value": "mental"
+          },
+          {
+            "label": "PF2E.TraitPoison",
+            "value": "poison"
+          },
+          {
+            "label": "PF2E.TraitSonic",
+            "value": "sonic"
+          },
+          {
+            "label": "PF2E.TraitSpirit",
+            "value": "spirit"
+          },
+          {
+            "label": "PF2E.TraitVitality",
+            "value": "vitality"
+          },
+          {
+            "label": "PF2E.TraitVoid",
+            "value": "void"
+          }
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "{item|id}-inline-damage"
+        ],
+        "property": "damage-type",
+        "predicate": [
+          "ignition-vial-reinforced"
+        ],
+        "value": "{item|flags.pf2e.rulesSelections.ignitionVialReinforced}",
+        "mode": "override"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "itemId": "{item|id}",
+        "value": "{item|flags.pf2e.rulesSelections.ignitionVialReinforced}",
+        "predicate": [
+          "ignition-vial-reinforced"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "remove",
+        "property": "traits",
+        "itemId": "{item|id}",
+        "value": "fire",
+        "predicate": [
+          "ignition-vial-reinforced"
+        ]
+      }
+    ],
+    "slug": "ignition-vial",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemical",
+        "fire",
+        "manipulate",
+        "relentless"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT1M"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "iCrcpEFp5MJRbgcW",
+  "sort": -162500,
+  "_key": "!items!iCrcpEFp5MJRbgcW"
+}

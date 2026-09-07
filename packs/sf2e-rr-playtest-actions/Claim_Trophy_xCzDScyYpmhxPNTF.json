@@ -1,0 +1,57 @@
+{
+  "folder": "dopRsSdruXAlWR2I",
+  "name": "Claim Trophy",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You have access to the remains of a creature that was your quarry when it died.</p><hr /><p>You spend 1 minute gathering a trophy from your defeated quarry and add it to your trophy case, preparing it to reinforce your slayer's arsenal. The exact nature of the trophy varies depending on the quarry; it might be a dragon's fang or hide, a lich's empty soul cage, or fragments of a tyrant's armor. If you Claim a Trophy while your trophy case is full, you choose which to discard.</p><p>As part of Claiming a Trophy, you can also immediately @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} with it. This allows you to reinforce one of your hunting tools with the new trophy and make any choices about its properties that you normally make when you Reinforce your Arsenal during your daily preparations. When you Reinforce your Arsenal this way, you can't reinforce or make any choices about the properties of any hunting tools except the one you reinforce with the new trophy.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "claim-trophy",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "exploration",
+        "slayer"
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "xCzDScyYpmhxPNTF",
+  "sort": -100000,
+  "_key": "!items!xCzDScyYpmhxPNTF"
+}

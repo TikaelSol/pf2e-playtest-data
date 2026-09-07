@@ -1,0 +1,57 @@
+{
+  "folder": "dopRsSdruXAlWR2I",
+  "name": "Reinforce Arsenal",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are performing your daily preparations.</p><hr /><p>You can reinforce any number of your hunting tools with unused trophies from your trophy case, granting them any additional benefits listed in their reinforced entry. A hunting tool can be reinforced with only a single trophy at a time; if you reinforce the same tool again, you return the previous trophy to your trophy case. Even if you didn't reinforce any of your hunting tools, some hunting tools also allow you to make choices about their properties when you Reinforce your Arsenal, such as the damage type dealt by a bloodseeking blade signature tool's initial benefit.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "reinforce-arsenal",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "exploration",
+        "slayer"
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "Wagb9XE34NpQQ8yy",
+  "sort": -165625,
+  "_key": "!items!Wagb9XE34NpQQ8yy"
+}

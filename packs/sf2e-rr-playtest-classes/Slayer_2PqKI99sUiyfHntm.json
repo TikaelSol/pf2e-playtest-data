@@ -1,0 +1,271 @@
+{
+  "folder": null,
+  "name": "Slayer",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><em>The world is full of dangerous and mighty beings, but slayers know that no threat is unbeatable. You could be a trapper in pursuit of rarer game, a brave defender of the weak, or a dogged pursuer of a hated nemesis; whatever your reasons, few are more skilled than you at hunting singular and deadly foes. Equipped with an arsenal of specialized tools, the spoils of your previous hunts, and your indomitable spirit, you are always more prepared for each new quarry than the last.</em></p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-journals.JournalEntry.ySXKYCwTMwG7xpmk.JournalEntryPage.50V7VJjmpl8Q4yia]{Slayer}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "slayer",
+    "traits": {
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "items": {
+      "FfKfR": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.FZjGOlsSUKLitEXQ",
+        "img": "icons/skills/movement/figure-running-gray.webp",
+        "name": "On the Hunt",
+        "level": 1
+      },
+      "cqrH9": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.2zUj1Q8gdo5lLGsO",
+        "img": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+        "name": "Monster Lore",
+        "level": 1
+      },
+      "9rbTa": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.xrcHd81Rz1gUQDyv",
+        "img": "icons/sundries/survival/cuffs-shackles-ball.webp",
+        "name": "Slayer's Arsenal",
+        "level": 1
+      },
+      "iJX82": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.qfNU5NpNdEzJmY4C",
+        "img": "icons/skills/targeting/crosshair-triple-strike-orange.webp",
+        "name": "Slayer's Quarry",
+        "level": 1
+      },
+      "w2DOG": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0",
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "name": "Reflex Expertise",
+        "level": 3
+      },
+      "zkEPL": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.aYztIoTJe9ez5gfC",
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "name": "Tip of the Tongue",
+        "level": 5
+      },
+      "tkAiW": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.X88H7T2VLCpIyqDb",
+        "img": "icons/weapons/sickles/sickle-simple-purple.webp",
+        "name": "Weapon Expertise",
+        "level": 5
+      },
+      "XiBif": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.EFxpqWQEpccIaOW8",
+        "img": "icons/magic/perception/eye-ringed-glow-angry-small-red.webp",
+        "name": "Slayer's Sight",
+        "level": 7
+      },
+      "4H2Sn": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.PVPkoJSIunppnwVz",
+        "img": "icons/skills/ranged/arrows-flying-triple-brown.webp",
+        "name": "Specialized Arsenal",
+        "level": 7
+      },
+      "eLQbz": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.EbILpGivaddUs82B",
+        "img": "icons/magic/perception/third-eye-blue-red.webp",
+        "name": "Persistent Focus",
+        "level": 9
+      },
+      "Z7GgD": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.0gmIMdoKnch4Spgc",
+        "img": "icons/skills/ranged/person-archery-bow-attack-gray.webp",
+        "name": "Slayer Expertise",
+        "level": 9
+      },
+      "PDNiI": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.RAGZrkecvgF7OzrL",
+        "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+        "name": "Armor Expertise",
+        "level": 11
+      },
+      "NHbvQ": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.sTTKOkYRNwiAeKZM",
+        "img": "icons/sundries/survival/cuffs-shackles-tan.webp",
+        "name": "Expanded Arsenal",
+        "level": 11
+      },
+      "ZSBTJ": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.7dMDxvzGKbqoEAdX",
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "name": "Natural Reflexes",
+        "level": 11
+      },
+      "vm9vF": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.i6563IU7x4L9oRgC",
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "name": "Martial Weapon Mastery",
+        "level": 13
+      },
+      "oBaKx": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.XwV66h3l96iLt6El",
+        "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+        "name": "Greater Persistent Focus",
+        "level": 15
+      },
+      "cb3Bh": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.RBI3u3RJw6eztVkQ",
+        "img": "icons/skills/ranged/arrows-flying-salvo-blue-light.webp",
+        "name": "Greater Specialized Arsenal",
+        "level": 15
+      },
+      "D0VNa": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.nLwPMPLRne1HnL00",
+        "img": "systems/pf2e/icons/features/classes/incredible-sense.webp",
+        "name": "Perception Legend",
+        "level": 17
+      },
+      "XafOC": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.MD3KntxPjFsCmAlm",
+        "img": "icons/skills/ranged/shuriken-thrown-yellow.webp",
+        "name": "Slayer Mastery",
+        "level": 17
+      },
+      "7QZL0": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.U4UMSpA9XtoK9EAr",
+        "img": "icons/equipment/chest/breastplate-layered-steel-blue-gold.webp",
+        "name": "Armor Mastery",
+        "level": 19
+      },
+      "eWMB4": {
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.tuqaz08w7aSvDGH0",
+        "img": "icons/skills/wounds/injury-pain-body-orange.webp",
+        "name": "Fated Foe",
+        "level": 19
+      }
+    },
+    "keyAbility": {
+      "value": [
+        "dex",
+        "str"
+      ],
+      "selected": null
+    },
+    "hp": 10,
+    "perception": 2,
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 1,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "rank": 0,
+        "name": ""
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 1,
+      "heavy": 0
+    },
+    "spellcasting": 0,
+    "trainedSkills": {
+      "value": [
+        "survival"
+      ],
+      "additional": 4
+    },
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/class.svg",
+  "ownership": {
+    "default": 0,
+    "l3Q7V7E5Wx5YNCIg": 3,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "2PqKI99sUiyfHntm",
+  "sort": 0,
+  "_key": "!items!2PqKI99sUiyfHntm"
+}

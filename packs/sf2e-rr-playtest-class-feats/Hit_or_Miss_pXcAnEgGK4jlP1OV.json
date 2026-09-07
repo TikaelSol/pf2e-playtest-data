@@ -1,0 +1,76 @@
+{
+  "type": "feat",
+  "name": "Hit or Miss",
+  "folder": "Fv8tMx6nDmdOa4hl",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "daredevil",
+        "flourish",
+        "press",
+        "risky"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p>Sometimes you have to take big risks to take down your enemy. Make a melee Strike. It gains the following critical success, failure, and critical failure effects, replacing any other effects.</p><hr /><p><strong>Critical Success</strong> You make a damage roll according to your weapon or unarmed attack and deal triple damage.</p><p><strong>Failure</strong> Your attack deals half of any damage it would have dealt on a hit, excluding all damage dice. (This removes damage dice from weapon runes, spells, and special abilities, in addition to weapon damage dice.)</p><p><strong>Critical Failure</strong> You miss, and the target of your Strike can make a melee Strike against you as a reaction.</p>",
+      "gm": ""
+    },
+    "rules": [],
+    "slug": "hit-or-miss",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "pXcAnEgGK4jlP1OV",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!pXcAnEgGK4jlP1OV"
+}

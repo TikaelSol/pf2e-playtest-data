@@ -1,0 +1,82 @@
+{
+  "folder": "nl4dm7lchViZJXBa",
+  "name": "Armor Mastery",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your skill with your armor further improves, warding off blows with ease. Your proficiency ranks for light and medium armor, as well as for unarmored defense, increase to master.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "armor-mastery",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slayer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 19
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "light": {
+          "rank": 3,
+          "attribute": null
+        },
+        "medium": {
+          "rank": 3,
+          "attribute": null
+        },
+        "unarmored": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/equipment/chest/breastplate-layered-steel-blue-gold.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "U4UMSpA9XtoK9EAr",
+  "sort": 0,
+  "_key": "!items!U4UMSpA9XtoK9EAr"
+}

@@ -1,0 +1,158 @@
+{
+  "name": "Effect: Apply Spirit Oil",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.HqeK2CH6iKjBaPuL]{Apply Spirit Oil}</p><p>Your selected weapon gains the deadly d8 trait, or increases the die size of its deadly trait by one step if it already had it. If your oil is reinforced, the selected weapon also deals an additional 1d4 persistent damage type of a selected damage type.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": {
+          "ownedItems": true,
+          "types": [
+            "weapon"
+          ],
+          "predicate": [
+            "item:equipped"
+          ]
+        },
+        "flag": "weapon",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "prompt": "PFPT.Slayer.ApplySpiritOil.ReinforcedPrompt",
+        "choices": [
+          {
+            "label": "PF2E.UI.RuleElements.ChoiceSet.NoLabel",
+            "value": "not-reinforced"
+          },
+          {
+            "label": "PF2E.UI.RuleElements.ChoiceSet.YesLabel",
+            "value": "reinforced"
+          }
+        ],
+        "rollOption": "apply-spirit-oil"
+      },
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": {
+          "config": "damageTypes"
+        },
+        "flag": "damageType",
+        "prompt": "PF2E.SpecificRule.Prompt.DamageType",
+        "predicate": [
+          "apply-spirit-oil:reinforced"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "itemId": "{item|flags.pf2e.rulesSelections.weapon}",
+        "value": "deadly-d12",
+        "predicate": [
+          "item:trait:deadly-d10"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "itemId": "{item|flags.pf2e.rulesSelections.weapon}",
+        "value": "deadly-d10",
+        "predicate": [
+          "item:trait:deadly-d8"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "itemId": "{item|flags.pf2e.rulesSelections.weapon}",
+        "value": "deadly-d8",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:deadly-d4",
+              "item:trait:deadly-d6",
+              {
+                "not": "item:trait:deadly"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "DamageDice",
+        "predicate": [
+          "apply-spirit-oil:reinforced"
+        ],
+        "selector": "{item|flags.pf2e.rulesSelections.weapon}-damage",
+        "dieSize": "d4",
+        "diceNumber": 1,
+        "category": "persistent",
+        "critical": true,
+        "damageType": "{item|flags.pf2e.rulesSelections.damageType}"
+      }
+    ],
+    "slug": "effect-apply-spirit-oil",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 4
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "S5xVqvYkCGViyooc",
+  "img": "icons/consumables/potions/potion-round-stopped-yellow-green.webp",
+  "folder": null,
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!S5xVqvYkCGViyooc"
+}

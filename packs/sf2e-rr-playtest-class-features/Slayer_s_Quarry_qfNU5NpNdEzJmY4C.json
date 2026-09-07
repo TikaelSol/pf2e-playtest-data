@@ -1,0 +1,82 @@
+{
+  "folder": "nl4dm7lchViZJXBa",
+  "name": "Slayer's Quarry",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>As a slayer, you are especially effective when you carefully research and track a particular target. You gain the following benefits, allowing you to track your quarry and claim your prize when you defeat it.</p><h2>Mark Quarry</h2><p>You have little preference in which prey you choose to hunt, so long as you deem it worthy. You gain the @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.pLEBGC3EMeUlFLqq]{Mark Quarry} activity.</p><h2>Claim Trophy</h2><p>When your quarry finally falls, you can swiftly claim a trophy and use it to reinforce your own tools, readying yourself for the next hunt. You gain a personal trophy case, a container of light bulk with no monetary value which you use to store your trophies. Your trophy case can carry up to 5 unused trophies at a time. You also gain the @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.xCzDScyYpmhxPNTF]{Claim Trophy} and @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce Arsenal} activities to claim and use trophies.</p><h2>Trophies</h2><p>Trophies are used to Reinforce your Arsenal during your daily preparations, adding additional benefits to your hunting tools. The nature of your trophies varies depending on your quarry, but each has certain common characteristics, determined by the creature from which it was claimed. While all trophies have an associated magical tradition for the purposes of your slayer feats and class features, they are not inherently magical and don't have a tradition trait unless the creature they were claimed from did. Some slayer feats and class features might also reference a particular characteristic of the creature a trophy was claimed from, beyond a trophy's common characteristics.</p><p><strong>Traits</strong> A trophy's traits are any traits the creature had, not including rarity or size traits.</p><p><strong>Damage Types</strong> A trophy's damage types are any damage types which the creature could deal with its Strikes or non-spellcasting abilities, or which the creature had immunity to.</p><p><strong>Traditions</strong> A trophy is associated with the traditions matching the creature's tradition trait, if any, and the tradition of any spells it could cast, if any. If the creature had neither a tradition trait nor the ability to cast spells, the trophy's tradition is occult.</p><p>At 1st level, you have a single trophy already, which you claimed in a battle before your adventures or were given during your training. If you are creating a higher-level slayer, you start with an additional trophy for every 2 levels you have. Your starting trophy has the following characteristics of your choice.</p><p><strong>Traits</strong> One of aberration, beast, dragon, giant, or undead.</p><p><strong>Damage Types</strong> One of cold, fire, electricity, or spirit.</p><p><strong>Traditions</strong> One of arcane, divine, primal, or occult</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-actions.Item.pLEBGC3EMeUlFLqq"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-actions.Item.xCzDScyYpmhxPNTF"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy"
+      }
+    ],
+    "slug": "slayers-quarry",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slayer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/skills/targeting/crosshair-triple-strike-orange.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "qfNU5NpNdEzJmY4C",
+  "sort": -96093,
+  "_key": "!items!qfNU5NpNdEzJmY4C"
+}

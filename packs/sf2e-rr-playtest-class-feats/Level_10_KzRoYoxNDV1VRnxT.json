@@ -1,0 +1,20 @@
+{
+  "name": "Level 10",
+  "folder": "jn86xHCAWsJRQ68M",
+  "type": "Item",
+  "_id": "KzRoYoxNDV1VRnxT",
+  "description": "",
+  "sorting": "a",
+  "sort": 300000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!KzRoYoxNDV1VRnxT"
+}

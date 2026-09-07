@@ -1,0 +1,73 @@
+{
+  "type": "feat",
+  "name": "Eternal Hunt",
+  "folder": "2cf4jAUU08m19iB1",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "slayer"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You end your turn.</p><hr /><p>You can always see an opening to throw yourself into battle, and don't need to wait for one to present itself. You go @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.O0SU1cAh8ijq7Z4J]{On the Hunt} as a free action.</p>",
+      "gm": ""
+    },
+    "rules": [],
+    "slug": "eternal-hunt",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "b0da7m1eVSZPMiGa",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!b0da7m1eVSZPMiGa"
+}

@@ -1,0 +1,76 @@
+{
+  "type": "feat",
+  "name": "Flying Hurdle Stunt",
+  "folder": "gFe8EWz0Z0dhfsGz",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "attack",
+        "daredevil",
+        "press",
+        "risky"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> The target can't be more than one size larger than you.</p><hr /><p>You forcefully grab an opponent and flip yourself over their head. Attempt an @Check[athletics|against:reflex] check against the Reflex DC of a creature within your reach.</p><hr /><p><strong>Critical Success</strong> You enter the target's space and the target is moved up to 10 feet into the space you just left. Your movement doesn't trigger reactions, though if there isn't enough room for the target to fit in the area you just vacated, the action fails. You gain a +1 circumstance bonus to melee Strikes against the target until the beginning of your next turn.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.9zOoYdGPhrR4DRs0]{Effect: Flying Hurdle Stunt}</p><p><strong>Success</strong> As critical success, but you don't gain the bonus to Strikes.</p><p><strong>Failure</strong> You don't get enough of a grip on your target to flip over them, but you can immediately Step, through you must remain adjacent to the target.</p><p><strong>Critical Failure</strong> Your stunt backfires. You become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the beginning of your next turn and you trigger any reactions as if you had performed a manipulate action.</p>",
+      "gm": ""
+    },
+    "rules": [],
+    "slug": "flying-hurdle-stunt",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "fokv6TmlUPqWFCzA",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!fokv6TmlUPqWFCzA"
+}

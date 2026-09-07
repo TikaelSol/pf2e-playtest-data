@@ -1,0 +1,105 @@
+{
+  "type": "equipment",
+  "name": "Inth-, Diacritic Rune of Corruption",
+  "folder": null,
+  "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Usage</strong> drawn on a rune</p><hr /><p>This set of angular accents around the base rune channels the essence of fiendish corruption. The base rune gains the unholy trait, as does any damage it deals. If applied to a holy creature, that creature is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} for as long as the rune is applied to it.</p><p>@UUID[Compendium.pf2e-playtest-data.impossible-playtest-effects.Item.OwbpgxdQFpxfre4g]{Effect: Inth-, Diacritic Rune of Corruption}</p><p><strong>Invocation</strong> (unholy) When the base rune is invoked, it burns away in unholy black fire that lingers on its target. In addition to the base rune's normal effect, the target takes 1d4 persistent fire damage.</p><hr /><p><strong>Level (+2)</strong> The damage increases by 1d4.</p>"
+    },
+    "rules": [],
+    "slug": "inth-diacritic-rune-of-corruption",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diacritic",
+        "divine",
+        "fiend",
+        "fire",
+        "rune",
+        "runesmith",
+        "unholy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Impossible Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0,
+      "heldOrStowed": 0,
+      "per": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other",
+      "type": "worn"
+    },
+    "subitems": []
+  },
+  "_id": "8AksFXlcywERvqKV",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrkQVtB9iGZvxqph": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1",
+    "exportSource": null
+  },
+  "_key": "!items!8AksFXlcywERvqKV"
+}

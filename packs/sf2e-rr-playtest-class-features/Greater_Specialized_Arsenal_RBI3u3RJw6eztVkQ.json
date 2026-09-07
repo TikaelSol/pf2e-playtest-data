@@ -1,0 +1,81 @@
+{
+  "folder": "nl4dm7lchViZJXBa",
+  "name": "Greater Specialized Arsenal",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your knowledge of your weapons makes them far more effective. You deal 2 additional damage with weapons and unarmed attacks in which you're an expert. This damage increases to 3 if you're a master, and 4 if you're legendary. In addition, you gain the specialized arsenal benefit of your signature tool.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "mode": "multiply",
+        "relabel": "{item|name}",
+        "selectors": [
+          "unarmed-damage",
+          "weapon-damage"
+        ],
+        "slug": "specialized-arsenal",
+        "value": 2
+      }
+    ],
+    "slug": "greater-specialized-arsenal",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slayer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/skills/ranged/arrows-flying-salvo-blue-light.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "RBI3u3RJw6eztVkQ",
+  "sort": -96875,
+  "_key": "!items!RBI3u3RJw6eztVkQ"
+}

@@ -1,0 +1,92 @@
+{
+  "type": "feat",
+  "name": "Impenetrable Shelter",
+  "folder": "03CkTIVYCaaPXRa2",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "slayer"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p>Your armor is covered in so many layers of special materials and treatments that it protects you from almost any harm. When you use @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.7Wyg7Z4HpK5NABep]{Armored Shelter}, you gain a +2 circumstance bonus to all saves against area effects, not just Reflex saves.</p>",
+      "gm": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "will",
+          "fortitude"
+        ],
+        "value": 2,
+        "type": "circumstance",
+        "slug": "armored-shelter-save",
+        "predicate": [
+          "area-effect",
+          "self:effect:armored-shelter"
+        ]
+      }
+    ],
+    "slug": "impenetrable-shelter",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "warded mail signature tool"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "PVeG2yuEf6pcJ57p",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!PVeG2yuEf6pcJ57p"
+}

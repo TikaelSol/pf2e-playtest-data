@@ -1,0 +1,63 @@
+{
+  "folder": "dopRsSdruXAlWR2I",
+  "name": "Fated Foe",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Trigger</strong> A creature would reduce you to 0 Hit Points.</p><hr /><p>You refuse to be slain, turning on one who would try to fell you. You avoid being knocked out and remain at 1 Hit Point, your @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded} condition increases by 1, and you gain temporary Hit Points equal to twice your level for 1 minute. You immediately declare the triggering creature your quarry if its level is higher than yours, replacing your existing one, and can choose new options for any of your hunting tools that allow you to change their properties when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} (such as the damage type dealt by a bloodseeking blade signature tool's initial benefit).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "fated-foe",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slayer"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": null,
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-playtest-data.rr-playtest-effects.Item.oieYleH0CkJyjj3W",
+      "name": "Effect: Fated Foe"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "Cf48dHaL719aeQ9B",
+  "sort": -200000,
+  "_key": "!items!Cf48dHaL719aeQ9B"
+}

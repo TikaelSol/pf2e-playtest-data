@@ -1,0 +1,111 @@
+{
+  "folder": "dopRsSdruXAlWR2I",
+  "name": "Hunting Spike",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You have a free hand and are wearing your @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.6Tvz8UCMxDx0nxHa]{Consecrated Panoply} signature tool</p><hr /><p><strong>Effect</strong> You draw and Strike with one of your hunting spikes, specially consecrated tools which function as daggers. Your hunting spikes have either the holy or unholy trait, chosen when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}. Your panoply always contains more spikes to draw, but they are worthless to anyone but you and cannot be etched with runes or otherwise modified.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "category": "simple",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "knife",
+        "key": "Strike",
+        "traits": [
+          "agile",
+          "finesse",
+          "thrown-10",
+          "versatile-s"
+        ],
+        "baseType": "dagger",
+        "img": "icons/weapons/daggers/dagger-straight-thin-black.webp",
+        "predicate": [
+          {
+            "not": "expansive-panoply"
+          }
+        ],
+        "slug": "hunting-spike"
+      },
+      {
+        "label": "PFPT.Slayer.ConsecratedPanoply.HuntingSpike.TraitLabel",
+        "key": "RollOption",
+        "option": "hunting-spike-trait",
+        "toggleable": true,
+        "alwaysActive": true,
+        "suboptions": [
+          {
+            "label": "PF2E.TraitHoly",
+            "value": "holy"
+          },
+          {
+            "label": "PF2E.TraitUnholy",
+            "value": "unholy"
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "itemType": "weapon",
+        "predicate": [
+          "item:slug:hunting-spike"
+        ],
+        "value": "{item|flags.pf2e.rulesSelections.huntingSpikeTrait}"
+      }
+    ],
+    "slug": "hunting-spike",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "manipulate",
+        "relentless"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "BR1P3Dy0gjsuKu7V",
+  "sort": -175000,
+  "_key": "!items!BR1P3Dy0gjsuKu7V"
+}

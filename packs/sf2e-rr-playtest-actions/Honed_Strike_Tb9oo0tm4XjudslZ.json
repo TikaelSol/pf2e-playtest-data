@@ -1,0 +1,75 @@
+{
+  "folder": "dopRsSdruXAlWR2I",
+  "name": "Honed Strike",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You center yourself and calm your breathing, then strike. Make a Strike with your bloodseeking blade signature tool. You gain a +2 circumstance bonus to your attack roll and ignore the target's @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} condition.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "honed-strike",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "value": 2,
+        "type": "circumstance",
+        "selector": [
+          "strike-attack-roll"
+        ],
+        "predicate": [
+          "honed-strike",
+          "item:tag:bloodseeking-blade"
+        ],
+        "slug": "honed-strike"
+      }
+    ],
+    "slug": "honed-strike",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "relentless"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "Tb9oo0tm4XjudslZ",
+  "sort": -150000,
+  "_key": "!items!Tb9oo0tm4XjudslZ"
+}

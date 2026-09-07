@@ -1,0 +1,75 @@
+{
+  "folder": "6x9GsfOCgcy05Hq3",
+  "name": "Enduring Adrenaline",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The rush of combat keeps you on your feet. Your proficiency rank for your daredevil class DC increases to master. Whenever you gain adrenaline, you also gain a number of temporary Hit Points equal to half your level that last until the beginning of your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "enduring-adrenaline",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "daredevil"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 19
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "daredevil": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "5v5w9TnpXq02dPyl",
+  "img": "icons/magic/life/heart-pink.webp",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "uALuXwktnyPWpcY7": 3,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!5v5w9TnpXq02dPyl"
+}

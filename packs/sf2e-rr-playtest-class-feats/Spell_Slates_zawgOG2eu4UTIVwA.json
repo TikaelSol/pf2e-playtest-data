@@ -1,0 +1,77 @@
+{
+  "type": "feat",
+  "name": "Spell Slates",
+  "folder": "eIfK7kEVLBZb6oyf",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "slayer"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p>You've learned how to expand your magical tricks with a set of specially prepared charms or runes, which you gain as a secondary tool. You gain a 1st-rank common occult spell and a 2nd-rank common occult spell as innate spells, each of which you can cast once per day. At 8th level, you also gain a 3rd-rank common occult spell as an innate spell which you can cast once per day.</p><p><strong>Reinforced</strong> You gain an additional common innate spell of a rank equal to or less than the highest-rank innate spell you have from slayer feats, which you can cast once per day. This additional spell must be of the trophy's tradition, and you can swap it for a different spell with the same restrictions when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}.</p>",
+      "gm": ""
+    },
+    "rules": [],
+    "slug": "spell-slates",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Slayer's Tricks"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "zawgOG2eu4UTIVwA",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!zawgOG2eu4UTIVwA"
+}

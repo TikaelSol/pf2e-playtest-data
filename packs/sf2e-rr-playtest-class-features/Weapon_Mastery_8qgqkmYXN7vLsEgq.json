@@ -1,0 +1,82 @@
+{
+  "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+  "name": "Weapon Mastery",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You've mastered combat prowess. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {
+        "martial": {
+          "rank": 3,
+          "attribute": null
+        },
+        "simple": {
+          "rank": 3,
+          "attribute": null
+        },
+        "unarmed": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "daredevil"
+      ],
+      "otherTags": []
+    },
+    "slug": "weapon-mastery",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "jhpDLDrHYHSQH9Qx",
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_id": "8qgqkmYXN7vLsEgq",
+  "sort": 0,
+  "_key": "!items!8qgqkmYXN7vLsEgq"
+}

@@ -1,0 +1,123 @@
+{
+  "type": "feat",
+  "name": "Deadly Advantage",
+  "folder": "Fv8tMx6nDmdOa4hl",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "daredevil"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p>You take the upper hand against foes in a weakened state. When you have adrenaline, you gain a circumstance bonus to damage rolls for Strikes against @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled} creatures. The bonus is equal to double the target's clumsy or enfeebled condition, whichever is higher. If you're a master in Athletics, increase the bonus to triple the target's clumsy or enfeebled condition, whichever is higher.</p>",
+      "gm": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": "@target.conditions.enfeebled.value",
+        "type": "circumstance",
+        "selector": [
+          "strike-damage"
+        ],
+        "predicate": [
+          "target:condition:enfeebled",
+          "self:effect:adrenaline"
+        ],
+        "slug": "deadly-advantage-enfeebled",
+        "hideIfDisabled": true,
+        "tags": [
+          "deadly-advantage"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": "@target.conditions.clumsy.value",
+        "type": "circumstance",
+        "selector": [
+          "strike-damage"
+        ],
+        "predicate": [
+          "target:condition:clumsy",
+          "self:effect:adrenaline"
+        ],
+        "slug": "deadly-advantage-clumsy",
+        "hideIfDisabled": true,
+        "tags": [
+          "deadly-advantage"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "multiply",
+        "value": 1.5,
+        "selector": "strike-damage",
+        "slug": "deadly-advantage",
+        "predicate": [
+          {
+            "gte": [
+              "skill:athletics:rank",
+              3
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "deadly-advantage",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "M9Qy64rnnijblSJs",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!M9Qy64rnnijblSJs"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Armored Shelter",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are wearing your @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.e2yHoiqZP7PM22Cq]{Warded Mail} signature tool</p><hr /><p><strong>Effect</strong> You position your armor to better protect you. You gain a +2 circumstance bonus to your AC and to Reflex saves against area effects until the end of your next turn or until you move from your current space or use an attack action, whichever comes first.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "armored-shelter",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "relentless"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "defensive",
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-playtest-data.rr-playtest-effects.Item.7lA2FqL0XlG5HSHs",
+      "name": "Effect: Armored Shelter"
+    }
+  },
+  "_id": "7Wyg7Z4HpK5NABep",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": "dopRsSdruXAlWR2I",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "HfqCvkteYnTykQsA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!7Wyg7Z4HpK5NABep"
+}

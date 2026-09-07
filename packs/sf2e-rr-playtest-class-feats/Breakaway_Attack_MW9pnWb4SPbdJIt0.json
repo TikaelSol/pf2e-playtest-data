@@ -1,0 +1,163 @@
+{
+  "type": "feat",
+  "name": "Breakaway Attack",
+  "folder": "gFe8EWz0Z0dhfsGz",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "daredevil",
+        "flourish",
+        "risky"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p>You use a piece of your surroundings to make a surprising attack. Describe how you are using your environment (throwing a pot or pan, kicking a loose post to make scaffolding fall, or slamming a door open or shut, for example). You Interact with the described object and then make a melee or ranged Strike with it, as appropriate for your description. Any fundamental runes you have on a handwraps of might blows apply to this Strike. A melee Strike has the finesse and deadly d8 traits; it deals d8 bludgeoning damage. A ranged Strike has a range increment of 20 feet and the deadly d10 and propulsive traits; it deals 1d6 bludgeoning damage. If the object is a mundane level 0 item that you could have held in your hand, it is destroyed; otherwise, it falls to the ground in your target's space. The GM can determine that your Breakaway Attack deals a different type of damage, depending on your description and the circumstances.</p>",
+      "gm": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "breakaway-attack",
+        "suboptions": [
+          {
+            "label": "PF2E.NPCAttackMelee",
+            "value": "melee"
+          },
+          {
+            "label": "PF2E.NPCAttackRanged",
+            "value": "ranged"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "key": "RollOption",
+        "option": "breakaway-attack-damage-type",
+        "suboptions": {
+          "config": "damageTypes"
+        },
+        "toggleable": true,
+        "alwaysActive": true,
+        "selection": "bludgeoning",
+        "predicate": [
+          "breakaway-attack"
+        ],
+        "label": "PFPT.Daredevil.BreakawayAttack.DamageLabel"
+      },
+      {
+        "category": "unarmed",
+        "group": "brawling",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "key": "Strike",
+        "slug": "breakway-attack",
+        "img": "icons/commodities/wood/framing-brown.webp",
+        "traits": [
+          "finesse",
+          "deadly-d8"
+        ],
+        "predicate": [
+          "breakaway-attack:melee"
+        ]
+      },
+      {
+        "category": "unarmed",
+        "group": "brawling",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "range": {
+          "increment": 20
+        },
+        "key": "Strike",
+        "slug": "breakway-attack",
+        "img": "icons/containers/barrels/barrel-walnut-steel-brown.webp",
+        "traits": [
+          "propulsive",
+          "deadly-d10"
+        ],
+        "predicate": [
+          "breakaway-attack:ranged"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "property": "damage-type",
+        "value": "{item|flags.system.rulesSelections.breakawayAttackDamageType}",
+        "selectors": [
+          "{item|id}-damage"
+        ],
+        "predicate": [
+          "breakaway-attack"
+        ],
+        "slug": "base"
+      }
+    ],
+    "slug": "breakaway-attack",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "MW9pnWb4SPbdJIt0",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!MW9pnWb4SPbdJIt0"
+}

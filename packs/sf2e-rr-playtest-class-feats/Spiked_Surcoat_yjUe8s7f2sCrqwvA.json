@@ -1,0 +1,123 @@
+{
+  "type": "feat",
+  "name": "Spiked Surcoat",
+  "folder": "kEo5rIjkDQ65ks2T",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "slayer"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p>You wear a set of vicious spikes over your armor, which you gain as a secondary tool. While wearing your spiked surcoat, whenever you are hit by an unarmed Strike, a Strike with a non-reach melee weapon, or @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, the attacker takes @Damage[1[piercing]|options:spiked-surcoat]{piercing damage} equal to 1 + the value of your armor's potency rune.</p><p><strong>Reinforced</strong> The spikes deal an additional 1 damage of one of the trophy's damage types.</p>",
+      "gm": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "spiked-surcoat-reinforced",
+        "toggleable": true,
+        "label": "PFPT.Slayer.SpikedSurcoat.Reinforced.ToggleLabel",
+        "suboptions": {
+          "config": "damageTypes",
+          "predicate": [
+            {
+              "not": {
+                "eq": [
+                  "{choice|value}",
+                  "untyped"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "FlatModifier",
+        "value": "@armor.system.runes.potency",
+        "predicate": [
+          "spiked-surcoat"
+        ],
+        "selector": [
+          "inline-damage"
+        ],
+        "slug": "spiked-surcoat",
+        "label": "PF2E.ModifierType.potency"
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "predicate": [
+          "spiked-surcoat-reinforced",
+          "spiked-surcoat"
+        ],
+        "selector": [
+          "inline-damage"
+        ],
+        "damageType": "{item|flags.pf2e.rulesSelections.spikedSurcoatReinforced}",
+        "slug": "spiked-surcoat-reinforced",
+        "label": "PFPT.Slayer.Reinforced.Label"
+      }
+    ],
+    "slug": "spiked-surcoat",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "warded mail signature tool"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "yjUe8s7f2sCrqwvA",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!yjUe8s7f2sCrqwvA"
+}

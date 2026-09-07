@@ -1,0 +1,100 @@
+{
+  "type": "feat",
+  "name": "Lucky Spark",
+  "folder": "8md3if408wmGm35e",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "concentrate",
+        "daredevil",
+        "fortune"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You attempt a saving throw, but haven't rolled yet</p><p><strong>Requirements</strong> You have adrenaline.</p><hr /><p>You tap into your adrenaline when you need it the most. Roll the triggering save twice with a +2 circumstance bonus, and use the better result. You then immediately lose adrenaline.</p>",
+      "gm": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "lucky-spark",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw"
+        ],
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "lucky-spark"
+        ]
+      },
+      {
+        "key": "RollTwice",
+        "selector": "saving-throw",
+        "keep": "higher",
+        "predicate": [
+          "lucky-spark"
+        ]
+      }
+    ],
+    "slug": "lucky-spark",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "kcpBo3IMKaMiF8Ei",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!kcpBo3IMKaMiF8Ei"
+}

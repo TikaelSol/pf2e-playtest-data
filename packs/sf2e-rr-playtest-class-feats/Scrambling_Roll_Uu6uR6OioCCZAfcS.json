@@ -1,0 +1,108 @@
+{
+  "type": "feat",
+  "name": "Scrambling Roll",
+  "folder": "fp4p9ttM20Mt63fZ",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "daredevil"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p>With a dive and a tumble, you can avoid dangerous effects. You can use @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.JsY7pHr0HDQt0yLX]{Scrambling Retreat} before attempting a Reflex save, in addition to its original trigger. If you do, the circumstance bonus applies to your Reflex save against the triggering effect. If you Stride after attempting the save, and the source of the effect is a creature, that creature can Stride up to the same distance toward you as a free action.</p>",
+      "gm": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 2,
+        "type": "circumstance",
+        "selector": [
+          "reflex"
+        ],
+        "slug": "scrambling-retreat",
+        "label": "PFPT.Daredevil.ScramblingRetreat.Label",
+        "predicate": [
+          "scrambling-retreat"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "itemType": "feat",
+        "property": "description",
+        "value": [
+          {
+            "text": "{item|description}"
+          }
+        ],
+        "predicate": [
+          "item:slug:scrambling-retreat"
+        ]
+      }
+    ],
+    "slug": "scrambling-roll",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Scrambling Retreat"
+        },
+        {
+          "value": "expert in Acrobatics"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "Uu6uR6OioCCZAfcS",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!Uu6uR6OioCCZAfcS"
+}

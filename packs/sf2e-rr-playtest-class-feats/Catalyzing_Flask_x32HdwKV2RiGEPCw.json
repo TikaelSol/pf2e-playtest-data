@@ -1,0 +1,77 @@
+{
+  "type": "feat",
+  "name": "Catalyzing Flask",
+  "folder": "AufaJ9FMte4Pg13O",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "slayer"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p>You gain a catalyzing flask as a secondary tool, a special alchemical vial which contains a level 0 common alchemical elixir of your choice. You can Activate the elixir within without consuming it once per day, as the monster parts within react with the remaining fluid to produce more and fortify the elixir. If you Activate the elixir a second time on the same day, it is fully consumed. You can designate a different alchemical elixir of your level or lower as the contents of your catalyzing flask when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}, replacing the previous elixir and refilling the flask if it was fully consumed.</p><p><strong>Reinforced</strong> When you Activate the elixir within your catalyzing flask, you also gain a +1 status bonus to Fortitude, Reflex, or Will saves, whichever the creature the trophy was claimed from had the highest modifier in. This bonus lasts for 1 minute.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.usg85pETUqE6EwP5]{Effect: Catalyzing Flask (Reinforced)}</p>",
+      "gm": ""
+    },
+    "rules": [],
+    "slug": "catalyzing-flask",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "chymist's vials signature tool"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "x32HdwKV2RiGEPCw",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!x32HdwKV2RiGEPCw"
+}

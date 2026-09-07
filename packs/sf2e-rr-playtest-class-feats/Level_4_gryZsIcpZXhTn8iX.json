@@ -1,0 +1,20 @@
+{
+  "name": "Level 4",
+  "folder": "rllEuXzlqzSrTtpS",
+  "type": "Item",
+  "_id": "gryZsIcpZXhTn8iX",
+  "description": "",
+  "sorting": "a",
+  "sort": 250000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!gryZsIcpZXhTn8iX"
+}

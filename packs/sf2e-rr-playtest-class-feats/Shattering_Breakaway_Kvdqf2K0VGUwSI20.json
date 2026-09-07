@@ -1,0 +1,99 @@
+{
+  "type": "feat",
+  "name": "Shattering Breakaway",
+  "folder": "TFX9KA8V8OMcmcmg",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "daredevil"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": ""
+    },
+    "description": {
+      "value": "<p>As you shatter an object against an opponent, its pieces stay lodged in their skin. You can use @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.MW9pnWb4SPbdJIt0]{Breakaway Attack} as a two-action activity to Interact to pick up an object like a glass bottle or something similar and make a melee Strike with it. If this hits and deals damage, your target takes persistent bleed damage equal to double the number of damage dice as the item shatters against its form. The target is also @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} for as long as it is taking persistent bleed damage. If the item you pick up is magical, the Strike functions as normal and doesn't deal persistent damage.</p>",
+      "gm": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "shattering-breakway",
+        "disabledIf": [
+          {
+            "not": "breakaway-attack"
+          }
+        ],
+        "priority": 60,
+        "toggleable": true,
+        "disabledValue": false
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "breakaway-attack-damage"
+        ],
+        "value": "2*@weapon.system.damage.dice",
+        "damageType": "bleed",
+        "critical": false
+      }
+    ],
+    "slug": "shattering-breakaway",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Breakaway Attack"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "Kvdqf2K0VGUwSI20",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!Kvdqf2K0VGUwSI20"
+}

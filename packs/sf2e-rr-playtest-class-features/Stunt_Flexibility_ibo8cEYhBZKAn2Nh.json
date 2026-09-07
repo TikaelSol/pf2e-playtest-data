@@ -1,0 +1,70 @@
+{
+  "folder": "6x9GsfOCgcy05Hq3",
+  "name": "Stunt Flexibility",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Sometimes different situations require different maneuvers. When you make your daily preparations, you can replace the 1st-level feat you gained through daredevil's stunt with another daredevil feat of 6th level or lower that you meet the prerequisites for, don't already have, and has the risky trait. You can use that feat until your next daily preparations.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Pathfinder Risks & Rewards Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "stunt-flexibility",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "daredevil"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "ibo8cEYhBZKAn2Nh",
+  "img": "icons/skills/movement/arrow-upward-yellow.webp",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "uALuXwktnyPWpcY7": 3,
+    "yECpvB6rPSLHk9Lh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!ibo8cEYhBZKAn2Nh"
+}

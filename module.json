@@ -66,87 +66,6 @@
     "packs": [
         {
             "label": "Actions",
-            "name": "impossible-playtest-actions",
-            "path": "packs/impossible-playtest-actions",
-            "system": "pf2e",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Classes",
-            "name": "impossible-playtest-classes",
-            "path": "packs/impossible-playtest-classes",
-            "system": "pf2e",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Class Features",
-            "name": "impossible-playtest-class-features",
-            "path": "packs/impossible-playtest-class-features",
-            "system": "pf2e",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Effects",
-            "name": "impossible-playtest-effects",
-            "path": "packs/impossible-playtest-effects",
-            "system": "pf2e",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Feats",
-            "name": "impossible-playtest-class-feats",
-            "path": "packs/impossible-playtest-class-feats",
-            "system": "pf2e",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Journals",
-            "name": "impossible-playtest-journals",
-            "path": "packs/impossible-playtest-journals",
-            "system": "pf2e",
-            "type": "JournalEntry",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Runes",
-            "name": "impossible-playtest-runes",
-            "path": "packs/impossible-playtest-runes",
-            "system": "pf2e",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Spells",
-            "name": "impossible-playtest-spells",
-            "path": "packs/impossible-playtest-spells",
-            "system": "pf2e",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Thralls",
-            "name": "impossible-playtest-thralls",
-            "path": "packs/impossible-playtest-thralls",
-            "system": "pf2e",
-            "type": "Actor",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Actions",
             "name": "rr-playtest-actions",
             "path": "packs/rr-playtest-actions",
             "system": "pf2e",
@@ -205,82 +124,10 @@
             "private": false,
             "flags": {}
         },
-		{
-            "label": "Actions",
-            "name": "sf2e-impossible-playtest-actions",
-            "path": "packs/sf2e-impossible-playtest-actions",
-            "system": "sf2e",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Classes",
-            "name": "sf2e-impossible-playtest-classes",
-            "path": "packs/sf2e-impossible-playtest-classes",
-            "system": "sf2e",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Class Features",
-            "name": "sf2e-impossible-playtest-class-features",
-            "path": "packs/sf2e-impossible-playtest-class-features",
-            "system": "sf2e",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Effects",
-            "name": "sf2e-impossible-playtest-effects",
-            "path": "packs/sf2e-impossible-playtest-effects",
-            "system": "sf2e",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Feats",
-            "name": "sf2e-impossible-playtest-class-feats",
-            "path": "packs/sf2e-impossible-playtest-class-feats",
-            "system": "sf2e",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Runes",
-            "name": "sf2e-impossible-playtest-runes",
-            "path": "packs/sf2e-impossible-playtest-runes",
-            "system": "sf2e",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Spells",
-            "name": "sf2e-impossible-playtest-spells",
-            "path": "packs/sf2e-impossible-playtest-spells",
-            "system": "sf2e",
-            "type": "Item",
-            "private": false,
-            "flags": {}
-        },
-        {
-            "label": "Thralls",
-            "name": "sf2e-impossible-playtest-thralls",
-            "path": "packs/sf2e-impossible-playtest-thralls",
-            "system": "sf2e",
-            "type": "Actor",
-            "private": false,
-            "flags": {}
-        },
         {
             "label": "Actions",
-            "name": "sf2e-rr-playtest-actions",
-            "path": "packs/sf2e-rr-playtest-actions",
+            "name": "sf-rr-playtest-actions",
+            "path": "packs/sf-rr-playtest-actions",
             "system": "sf2e",
             "type": "Item",
             "banner": "modules/pf2e-playtest-data/assets/tiles/tile-00.webp",
@@ -289,8 +136,8 @@
         },
         {
             "label": "Classes",
-            "name": "sf2e-rr-playtest-classes",
-            "path": "packs/sf2e-rr-playtest-classes",
+            "name": "sf-rr-playtest-classes",
+            "path": "packs/sf-rr-playtest-classes",
             "system": "sf2e",
             "type": "Item",
             "banner": "modules/pf2e-playtest-data/assets/tiles/tile-01.webp",
@@ -299,8 +146,8 @@
         },
         {
             "label": "Class Features",
-            "name": "sf2e-rr-playtest-class-features",
-            "path": "packs/sf2e-rr-playtest-class-features",
+            "name": "sf-rr-playtest-class-features",
+            "path": "packs/sf-rr-playtest-class-features",
             "system": "sf2e",
             "type": "Item",
             "banner": "modules/pf2e-playtest-data/assets/tiles/tile-02.webp",
@@ -309,8 +156,8 @@
         },
         {
             "label": "Effects",
-            "name": "sf2e-rr-playtest-effects",
-            "path": "packs/sf2e-rr-playtest-effects",
+            "name": "sf-rr-playtest-effects",
+            "path": "packs/sf-rr-playtest-effects",
             "system": "sf2e",
             "type": "Item",
             "banner": "modules/pf2e-playtest-data/assets/tiles/tile-03.webp",
@@ -319,41 +166,27 @@
         },
         {
             "label": "Feats",
-            "name": "sf2e-rr-playtest-class-feats",
-            "path": "packs/sf2e-rr-playtest-class-feats",
+            "name": "sf-rr-playtest-class-feats",
+            "path": "packs/sf-rr-playtest-class-feats",
             "system": "sf2e",
             "type": "Item",
             "banner": "modules/pf2e-playtest-data/assets/tiles/tile-04.webp",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "label": "Journals",
+            "name": "sf-rr-playtest-journals",
+            "path": "packs/sf-rr-playtest-journals",
+            "system": "sf2e",
+            "type": "JournalEntry",
+            "banner": "modules/pf2e-playtest-data/assets/tiles/tile-05.webp",
             "private": false,
             "flags": {}
         }
     ],
     "esmodules": [],
     "packFolders": [
-        {
-            "name": "Impossible Playtest",
-            "sorting": "m",
-            "packs": [
-                "impossible-playtest-actions",
-                "impossible-playtest-classes",
-                "impossible-playtest-class-features",
-                "impossible-playtest-effects",
-                "impossible-playtest-class-feats",
-                "impossible-playtest-spells",
-                "impossible-playtest-runes",
-                "impossible-playtest-journals",
-                "impossible-playtest-thralls",
-				"sf2e-impossible-playtest-actions",
-                "sf2e-impossible-playtest-classes",
-                "sf2e-impossible-playtest-class-features",
-                "sf2e-impossible-playtest-effects",
-                "sf2e-impossible-playtest-class-feats",
-                "sf2e-impossible-playtest-spells",
-                "sf2e-impossible-playtest-runes",
-                "sf2e-impossible-playtest-journals",
-                "sf2e-impossible-playtest-thralls"
-            ]
-        },
         {
             "name": "R&R Playtest",
             "sorting": "m",
@@ -364,12 +197,12 @@
                 "rr-playtest-effects",
                 "rr-playtest-class-feats",
                 "rr-playtest-journals",
-				"sf2e-rr-playtest-actions",
-                "sf2e-rr-playtest-classes",
-                "sf2e-rr-playtest-class-features",
-                "sf2e-rr-playtest-effects",
-                "sf2e-rr-playtest-class-feats",
-                "sf2e-rr-playtest-journals"
+                "sf-rr-playtest-actions",
+                "sf-rr-playtest-classes",
+                "sf-rr-playtest-class-features",
+                "sf-rr-playtest-effects",
+                "sf-rr-playtest-class-feats",
+                "sf-rr-playtest-journals"
             ]
         }
     ],
@@ -391,16 +224,16 @@
                 "id": "pf2e",
                 "type": "system",
                 "compatibility": {
-                    "minimum": "7.9",
-                    "verified": "8.0"
+                    "minimum": "8.5",
+                    "verified": "8.5"
                 }
             },
-			{
+            {
                 "id": "sf2e",
                 "type": "system",
                 "compatibility": {
-                    "minimum": "1.0.3",
-                    "verified": "1.3.0"
+                    "minimum": "1.5",
+                    "verified": "1.5"
                 }
             }
         ]
@@ -413,7 +246,7 @@
         }
     ],
     "compatibility": {
-        "minimum": "13",
-        "verified": "14"
+        "minimum": "14",
+        "verified": "14.361"
     }
 }
